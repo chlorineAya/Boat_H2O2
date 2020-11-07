@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\version.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\version.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\control_button_normal.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\control_button_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_boat.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\ic_boat.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\update.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\update.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\web.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\web.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_boat.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\src\\main\\res\\drawable\\ic_boat.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cursor.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\src\\main\\res\\drawable\\cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\control_button_pressed.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\control_button_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thank.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\thank.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fg.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\fg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape1.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\shape1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\control_button_pressed.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\src\\main\\res\\drawable\\control_button_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\control_button.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\src\\main\\res\\drawable\\control_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\agree.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\agree.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\control_button.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\control_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cursor.png",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape2.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\shape2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\control_button_normal.xml",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\src\\main\\res\\drawable\\control_button_normal.xml"
+    }
+]

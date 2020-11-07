@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable_control_button.xml.flat",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\control_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\layout_overlay.xml.flat",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\layout\\overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable_control_button_normal.xml.flat",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\control_button_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable_control_button_pressed.xml.flat",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\control_button_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\layout_about_kr.xml.flat",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\layout\\about_kr.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\layout_launcher_layout.xml.flat",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\layout\\launcher_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cursor.png.flat",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back.png.flat",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_boat.png.flat",
+        "source": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\src\\main\\res\\drawable\\ic_boat.png"
+    }
+]

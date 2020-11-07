@@ -1,0 +1,4 @@
+#Sat Aug 01 20:40:19 CST 2020
+base.0=C\:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

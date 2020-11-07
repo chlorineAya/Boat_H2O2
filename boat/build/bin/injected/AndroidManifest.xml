@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="20"
+	android:versionName="1.0.0-alpha"
+	package="cosine.boat">
+
+	<uses-feature
+		android:glEsVersion="0x00020000"
+		android:required="true"/>
+
+	<uses-sdk
+		android:minSdkVersion="19"
+		android:targetSdkVersion="21"/>
+
+	<uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+	<uses-permission
+		android:name="android.permission.INTERNET"/>
+
+	<uses-permission
+		android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+	<application
+		android:theme="@style/AppTheme"
+		android:label="@string/app_name"
+		android:largeHeap="true"
+		android:icon="@drawable/ic_boat"
+		android:name="cosine.boat.BoatApplication">
+
+		<activity
+			android:label="@string/app_name"
+			android:name="LauncherActivity"
+			android:configChanges="keyboardHidden|orientation">
+
+			<meta-data
+				android:name="android.max_aspect"
+				android:value="3.1"/>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name="Library"
+			android:configChanges="keyboardHidden|orientation">
+
+			<meta-data
+				android:name="android.max_aspect"
+				android:value="3.1"/>
+
+		</activity>
+
+		<activity
+			android:name="cosine.boat.activity.MainActivity"
+			android:label="@string/app_name">
+
+			<intent-filter>
+
+				<action
+					android:name="android.intent.action.MAIN"/>
+
+				<category
+					android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:name="cosine.boat.download.DownloadActivity"
+			android:label="@string/down">
+
+		</activity>
+
+		<meta-data
+			android:name="android.max_aspect"
+			android:value="4.0"/>
+
+		<service
+			android:name="ru.ivanarh.jndcrash.NDCrashService"
+			android:process=":reportprocess"/>
+
+		<service
+			android:name="cosine.boat.logcat.LogcatService"
+			android:process=":logcatprocess"/>
+
+		<activity
+			android:name="BoatActivity"
+			android:theme="@style/FullScreenTheme"
+			android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden"
+			android:screenOrientation="sensorLandscape"
+			android:excludeFromRecents="false"
+			android:launchMode="singleInstance"
+			android:alwaysRetainTaskState="true">
+
+			<meta-data
+				android:name="android.app.lib_name"
+				android:value="boat"/>
+
+		</activity>
+
+		<activity
+			android:name="com.example.custompullmenu.ui.Dirchange.Activity"
+			android:theme="@style/DirTheme">
+
+		</activity>
+
+		<activity
+			android:name="com.example.custompullmenu.ui.SecondActivity"/>
+
+	</application>
+
+</manifest>
+

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center">
+
+	<ImageView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:scaleType="centerCrop"
+		android:id="@+id/iv1"/>
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:background="@+drawable/bg_white"
+		android:layout_centerInParent="true">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp">
+
+			<Spinner
+				android:id="@+id/ver"
+				android:layout_width="fill_parent"
+				android:layout_height="40dp"
+				android:gravity="center"/>
+
+			<Button
+				android:id="@+id/launcher_play_button"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@+drawable/btn_blue"
+				android:textColor="#ffffffff"
+				android:shadowDx="3"
+				android:shadowDy="3"
+				android:text="@string/play"/>
+
+			<Button
+				android:id="@+id/nofile"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@+drawable/btn_red"
+				android:textColor="#ffffffff"
+				android:text="@string/cfg_nofile"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:id="@+id/cfg_id"
+				android:text="@string/cfg_name"
+				android:layout_width="match_parent"/>
+
+			<SeekBar
+				android:id="@+id/seekBar"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:max="100"
+				android:progress="50"/>
+
+			<TextView
+				android:id="@+id/tv1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+			<EditText
+				android:id="@+id/et1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+			<EditText
+				android:id="@+id/et2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+			<Button
+				android:id="@+id/reset"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="重置"/>
+
+			<EditText
+				android:id="@+id/name"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:hint="Player ID"
+				android:inputType="text"/>
+
+			<CheckBox
+				android:id="@+id/cb"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="true"
+				android:text="@string/cfg_cb"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textColor="#716b60"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:id="@+id/cfg_jvm"
+				android:text="@string/cfg_ram"
+				android:textIsSelectable="true"
+				android:layout_width="match_parent"/>
+
+			<EditText
+				android:id="@+id/ram"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:hint="Ram "
+				android:maxLength="4"
+				android:inputType="text"
+				android:visibility="gone"/>
+
+			<EditText
+				android:id="@+id/mem"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:hint="ExtraJavaFlags "
+				android:inputType="text"/>
+
+			<EditText
+				android:id="@+id/bgdir"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:hint="Background"
+				android:inputType="text"/>
+
+			<Button
+				android:id="@+id/save"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="save"/>
+
+			<EditText
+				android:id="@+id/launcher_config_text"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone|time"/>
+
+			<EditText
+				android:id="@+id/launcher_input_text"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:hint="@+string/cfg_inputhint"
+				android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone|time"/>
+
+			<Button
+				android:id="@+id/launcher_excute_button"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/install"/>
+
+			<ScrollView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:fillViewport="true">
+
+				<TextView
+					android:layout_height="match_parent"
+					android:text=""
+					android:layout_width="match_parent"
+					android:id="@+id/launcher_output_text"
+					android:textIsSelectable="true"/>
+
+			</ScrollView>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</RelativeLayout>
+

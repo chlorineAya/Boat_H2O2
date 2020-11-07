@@ -1,0 +1,316 @@
+[
+    {
+        "outputFile": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\res\\merged\\debug\\values-id\\values-id.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 66,
+                    "endOffset": 175
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 113,
+                        "endColumn": 66,
+                        "endOffset": 175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 180,
+                    "endColumn": 68,
+                    "endOffset": 244
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 68,
+                        "endOffset": 244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 249,
+                    "endColumn": 67,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 67,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 74,
+                    "endOffset": 387
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 74,
+                        "endOffset": 387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 392,
+                    "endColumn": 63,
+                    "endOffset": 451
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 392,
+                        "endColumn": 63,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 456,
+                    "endColumn": 63,
+                    "endOffset": 515
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 456,
+                        "endColumn": 63,
+                        "endOffset": 515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 520,
+                    "endColumn": 70,
+                    "endOffset": 586
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 520,
+                        "endColumn": 70,
+                        "endOffset": 586
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\values-id\\values-id.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 66,
+                    "endOffset": 175
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 113,
+                        "endColumn": 66,
+                        "endOffset": 175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 180,
+                    "endColumn": 68,
+                    "endOffset": 244
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 68,
+                        "endOffset": 244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 249,
+                    "endColumn": 67,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 67,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 74,
+                    "endOffset": 387
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 74,
+                        "endOffset": 387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 392,
+                    "endColumn": 63,
+                    "endOffset": 451
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 392,
+                        "endColumn": 63,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 456,
+                    "endColumn": 63,
+                    "endOffset": 515
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 456,
+                        "endColumn": 63,
+                        "endOffset": 515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 520,
+                    "endColumn": 70,
+                    "endOffset": 586
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-id\\values-id.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 520,
+                        "endColumn": 70,
+                        "endOffset": 586
+                    }
+                }
+            }
+        ]
+    }
+]

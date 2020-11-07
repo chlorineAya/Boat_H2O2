@@ -1,0 +1,677 @@
+[
+    {
+        "outputFile": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\values-sr\\values-sr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 108,
+                    "endOffset": 209
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 108,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 214,
+                    "endColumn": 102,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endColumn": 102,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 105,
+                    "endOffset": 418
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 105,
+                        "endOffset": 418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 423,
+                    "endColumn": 85,
+                    "endOffset": 504
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 423,
+                        "endColumn": 85,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 509,
+                    "endColumn": 103,
+                    "endOffset": 608
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 509,
+                        "endColumn": 103,
+                        "endOffset": 608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 613,
+                    "endColumn": 117,
+                    "endOffset": 726
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 613,
+                        "endColumn": 117,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 731,
+                    "endColumn": 80,
+                    "endOffset": 807
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 731,
+                        "endColumn": 80,
+                        "endOffset": 807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 812,
+                    "endColumn": 79,
+                    "endOffset": 887
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 812,
+                        "endColumn": 79,
+                        "endOffset": 887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 892,
+                    "endColumn": 87,
+                    "endOffset": 975
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 892,
+                        "endColumn": 87,
+                        "endOffset": 975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 980,
+                    "endColumn": 104,
+                    "endOffset": 1080
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 980,
+                        "endColumn": 104,
+                        "endOffset": 1080
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1085,
+                    "endColumn": 107,
+                    "endOffset": 1188
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1085,
+                        "endColumn": 107,
+                        "endOffset": 1188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1193,
+                    "endColumn": 100,
+                    "endOffset": 1289
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1193,
+                        "endColumn": 100,
+                        "endOffset": 1289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1294,
+                    "endColumn": 103,
+                    "endOffset": 1393
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1294,
+                        "endColumn": 103,
+                        "endOffset": 1393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1398,
+                    "endColumn": 107,
+                    "endOffset": 1501
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1398,
+                        "endColumn": 107,
+                        "endOffset": 1501
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1506,
+                    "endColumn": 100,
+                    "endOffset": 1602
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1506,
+                        "endColumn": 100,
+                        "endOffset": 1602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1607,
+                    "endColumn": 166,
+                    "endOffset": 1769
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1607,
+                        "endColumn": 166,
+                        "endOffset": 1769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1774,
+                    "endColumn": 96,
+                    "endOffset": 1866
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1774,
+                        "endColumn": 96,
+                        "endOffset": 1866
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1871,
+                    "endColumn": 62,
+                    "endOffset": 1929
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 62,
+                        "endOffset": 113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1934,
+                    "endColumn": 69,
+                    "endOffset": 1999
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 69,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2004,
+                    "endColumn": 65,
+                    "endOffset": 2065
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 65,
+                        "endOffset": 249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2070,
+                    "endColumn": 70,
+                    "endOffset": 2136
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 254,
+                        "endColumn": 70,
+                        "endOffset": 320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2141,
+                    "endColumn": 82,
+                    "endOffset": 2219
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 325,
+                        "endColumn": 82,
+                        "endOffset": 403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2224,
+                    "endColumn": 66,
+                    "endOffset": 2286
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 408,
+                        "endColumn": 66,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2291,
+                    "endColumn": 63,
+                    "endOffset": 2350
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 475,
+                        "endColumn": 63,
+                        "endOffset": 534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2355,
+                    "endColumn": 67,
+                    "endOffset": 2418
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 539,
+                        "endColumn": 67,
+                        "endOffset": 602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2423,
+                    "endColumn": 83,
+                    "endOffset": 2502
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1871,
+                        "endColumn": 83,
+                        "endOffset": 1950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2507,
+                    "endColumn": 100,
+                    "endOffset": 2603
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\res\\merged\\debug\\values-sr\\values-sr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 62,
+                        "endOffset": 113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 118,
+                    "endColumn": 69,
+                    "endOffset": 183
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 69,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 188,
+                    "endColumn": 65,
+                    "endOffset": 249
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 65,
+                        "endOffset": 249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 254,
+                    "endColumn": 70,
+                    "endOffset": 320
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 254,
+                        "endColumn": 70,
+                        "endOffset": 320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 325,
+                    "endColumn": 82,
+                    "endOffset": 403
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 325,
+                        "endColumn": 82,
+                        "endOffset": 403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 408,
+                    "endColumn": 66,
+                    "endOffset": 470
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 408,
+                        "endColumn": 66,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 475,
+                    "endColumn": 63,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 475,
+                        "endColumn": 63,
+                        "endOffset": 534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 539,
+                    "endColumn": 67,
+                    "endOffset": 602
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 539,
+                        "endColumn": 67,
+                        "endOffset": 602
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,677 @@
+[
+    {
+        "outputFile": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\res\\merged\\debug\\values-ko\\values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 94,
+                    "endOffset": 195
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 94,
+                        "endOffset": 195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 200,
+                    "endColumn": 93,
+                    "endOffset": 289
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 200,
+                        "endColumn": 93,
+                        "endOffset": 289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 294,
+                    "endColumn": 101,
+                    "endOffset": 391
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 101,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 396,
+                    "endColumn": 81,
+                    "endOffset": 473
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 81,
+                        "endOffset": 473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 478,
+                    "endColumn": 97,
+                    "endOffset": 571
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 478,
+                        "endColumn": 97,
+                        "endOffset": 571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 576,
+                    "endColumn": 105,
+                    "endOffset": 677
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 576,
+                        "endColumn": 105,
+                        "endOffset": 677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 682,
+                    "endColumn": 78,
+                    "endOffset": 756
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 682,
+                        "endColumn": 78,
+                        "endOffset": 756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 761,
+                    "endColumn": 75,
+                    "endOffset": 832
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 761,
+                        "endColumn": 75,
+                        "endOffset": 832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 837,
+                    "endColumn": 79,
+                    "endOffset": 912
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 837,
+                        "endColumn": 79,
+                        "endOffset": 912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 917,
+                    "endColumn": 97,
+                    "endOffset": 1010
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 917,
+                        "endColumn": 97,
+                        "endOffset": 1010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1015,
+                    "endColumn": 94,
+                    "endOffset": 1105
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1015,
+                        "endColumn": 94,
+                        "endOffset": 1105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1110,
+                    "endColumn": 94,
+                    "endOffset": 1200
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1110,
+                        "endColumn": 94,
+                        "endOffset": 1200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1205,
+                    "endColumn": 99,
+                    "endOffset": 1300
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1205,
+                        "endColumn": 99,
+                        "endOffset": 1300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1305,
+                    "endColumn": 95,
+                    "endOffset": 1396
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1305,
+                        "endColumn": 95,
+                        "endOffset": 1396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1401,
+                    "endColumn": 98,
+                    "endOffset": 1495
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1401,
+                        "endColumn": 98,
+                        "endOffset": 1495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1500,
+                    "endColumn": 151,
+                    "endOffset": 1647
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1500,
+                        "endColumn": 151,
+                        "endOffset": 1647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1652,
+                    "endColumn": 93,
+                    "endOffset": 1741
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1652,
+                        "endColumn": 93,
+                        "endOffset": 1741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1746,
+                    "endColumn": 55,
+                    "endOffset": 1797
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1802,
+                    "endColumn": 53,
+                    "endOffset": 1851
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 111,
+                        "endColumn": 53,
+                        "endOffset": 160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1856,
+                    "endColumn": 52,
+                    "endOffset": 1904
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 52,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1909,
+                    "endColumn": 55,
+                    "endOffset": 1960
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 55,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1965,
+                    "endColumn": 57,
+                    "endOffset": 2018
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 57,
+                        "endOffset": 327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2023,
+                    "endColumn": 51,
+                    "endOffset": 2070
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 332,
+                        "endColumn": 51,
+                        "endOffset": 379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2075,
+                    "endColumn": 51,
+                    "endOffset": 2122
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 384,
+                        "endColumn": 51,
+                        "endOffset": 431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2127,
+                    "endColumn": 56,
+                    "endOffset": 2179
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 436,
+                        "endColumn": 56,
+                        "endOffset": 488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2184,
+                    "endColumn": 77,
+                    "endOffset": 2257
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1746,
+                        "endColumn": 77,
+                        "endOffset": 1819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2262,
+                    "endColumn": 100,
+                    "endOffset": 2358
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\res\\merged\\debug\\values-ko\\values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 111,
+                    "endColumn": 53,
+                    "endOffset": 160
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 111,
+                        "endColumn": 53,
+                        "endOffset": 160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 165,
+                    "endColumn": 52,
+                    "endOffset": 213
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 52,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 218,
+                    "endColumn": 55,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 55,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 57,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 57,
+                        "endOffset": 327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 332,
+                    "endColumn": 51,
+                    "endOffset": 379
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 332,
+                        "endColumn": 51,
+                        "endOffset": 379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 384,
+                    "endColumn": 51,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 384,
+                        "endColumn": 51,
+                        "endOffset": 431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 436,
+                    "endColumn": 56,
+                    "endOffset": 488
+                },
+                "from": {
+                    "file": "C:\\Users\\Vindows95\\Documents\\Boat4\\app\\build\\intermediates\\exploded-aar\\com.github.medyo\\android-about-page\\1.3\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 436,
+                        "endColumn": 56,
+                        "endOffset": 488
+                    }
+                }
+            }
+        ]
+    }
+]

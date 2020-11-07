@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:padding="10dp">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/runtimeLinearLayout1">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:id="@+id/runtimeTextView1"
+				android:text="数据包目录/sdcard/boat/runtime/"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:id="@+id/runtimeTextView2"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:paddingLeft="40dp"
+			android:paddingRight="40dp"
+			android:paddingTop="5dp"
+			android:paddingBottom="5dp">
+
+			<Spinner
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:id="@+id/runtimeSpinner1"
+				android:paddingLeft="50dp"/>
+
+		</LinearLayout>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="导入"
+			android:layout_toRightOf="@id/runtimeSpinner1"
+			android:id="@+id/runtimeButton1"/>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_below="@id/runtimeLinearLayout1"
+		android:padding="10dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_marginTop="5dp"
+			android:id="@+id/runtimeTextView3"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_below="@id/runtimeTextView3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="刷新"
+				android:layout_alignParentRight="true"
+				android:id="@+id/runtimeButton4"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="主目录"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/runtimeButton3"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="返回"
+				android:id="@+id/runtimeButton2"/>
+
+			<ListView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/runtimeListView1"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+
