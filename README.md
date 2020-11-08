@@ -6,6 +6,7 @@ Boat app needs java runtime and Boat main file to play Minecraft.
 ### Step1.Install main file
 -Download Boat main file.  
 -Unzip the file "boat" to "/sdcard/" or "/storage/emulated/0/" . 
+![Image text](https://github.com/NaCln4c1/Boat_H2O-v4/blob/master/picture/IMG20201108110247.jpg)
 The Main file of boat app that I uploaded includes runtime and Minecraft 1.16.4 ! If you have downloaded and unzipped this file, you needn't download single runtime file. I'm not sure if other main file have the runtime file. If not, please download the single runtime file.
 ### Step2.Install runtime
 If you are using this software for the first time, and use other main file to play which didn't have the runtime, you need to install the runtime at first.  
@@ -20,4 +21,4 @@ If you did not install the runtime or main file, the app will turn to the downlo
 -Default extraJavaFlags is -client -Xmx750M, you can adjust the details according to this (only number, 32bit, max number is 1024) to let Minecraft more fluently.  
 -Newest version (1.0.0-alpha) has another two input box and a draggable progress bar used to distinguish RAM and other parameters, RAM input box only supports number (If you installed the main file at the first time , or change the other main file, you should type a number (recommend 750) into the Ram input box.  
 ## Others
-According to the original author's request, this version will be open sourced under the GPLv3 license(https://github.com/NaCln4c1/Boat_H2O-v4/blob/master/LICENSE). If you are interested in taking over or participating in the development of this version, please contact my email (lhnn4c12016@hotmail.com).
+According to the original author's request, this version will be open sourced under the GPLv3 license (https://github.com/NaCln4c1/Boat_H2O-v4/blob/master/LICENSE). If you are interested in taking over or participating in the development of this version, please contact my email (lhnn4c12016@hotmail.com).
