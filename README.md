@@ -5,8 +5,8 @@ Boat APP created by CosineMath https://github.com/CosineMath/BoatApp
 Boat app needs java runtime and Boat main file to play Minecraft.
 ### Step1.Install main file
 -Download Boat main file.  
--Unzip the file "boat" to "/sdcard/" or "/storage/emulated/0/" . 
-![Image text](https://github.com/NaCln4c1/Boat_H2O-v4/blob/master/picture/IMG20201108110247.jpg)
+-Unzip the file "boat" to "/sdcard/" or "/storage/emulated/0/" .   
+![Image text](https://github.com/NaCln4c1/Boat_H2O-v4/blob/master/picture/IMG20201108110247.jpg)  
 The Main file of boat app that I uploaded includes runtime and Minecraft 1.16.4 ! If you have downloaded and unzipped this file, you needn't download single runtime file. I'm not sure if other main file have the runtime file. If not, please download the single runtime file.
 ### Step2.Install runtime
 If you are using this software for the first time, and use other main file to play which didn't have the runtime, you need to install the runtime at first.  
