@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 26.1.1">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/zwf0`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        android:id=&quot;@+id/zwf0&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Vindows95\Documents\Boat\app\src\main\res\layout\about_kr.xml"
+            line="32"
+            column="9"/>
+        <location
+            file="C:\Users\Vindows95\Documents\Boat\app\src\main\res\layout\about_kr.xml"
+            line="20"
+            column="9"/>
+    </issue>
+
+</issues>

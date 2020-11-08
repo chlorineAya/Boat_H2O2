@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Boat_H2O(v4)</string>
+	<string name="play">Play</string>
+	<string name="excute">Execute</string>
+	<string name="install">Install</string>
+	<string name="mouse_primary">Pri</string>
+    <string name="mouse_secondary">Sec</string>
+    <string name="control_chat">Chat</string>
+	<string name="control_command">Cmd</string>
+    <string name="control_debug">Deb</string>
+    <string name="control_shift">■</string>
+    <string name="control_inventory">E</string>
+	<string name="control_thirdperson">3rd</string>
+	<string name="control_jump">■</string>
+    <string name="control_up">▲</string>
+    <string name="control_left">◀</string>
+    <string name="control_right">▶</string>
+    <string name="control_down">▼</string>
+    <string name="control_keyboard">Keyboard</string>
+	<string name="esc">Esc</string>
+	<string name="step0">No such file!</string>
+	<string name="step1">Installing...</string>
+	<string name="step2">Package has been extracted in </string>
+	<string name="step3">Try to set executing permission: true</string>
+	<string name="step4">Try to set executing permission: false</string>
+	<string name="step5">Setting up property...</string>
+	<string name="step6">Finished!</string>
+	<string name="step7">Command process exited with value: </string>
+    
+    <string name="cfg_name">Player ID</string>
+    <string name="cfg_ram">Extra Java Flags(default: -client -Xmx750M, if you forget the default string, you can copy it from this text.)</string>
+    <string name="cfg_inputhint">Runtime directory</string>
+    <string name="cfg_nofile">Lost File！</string>
+    <string name="cfg_cb">More Options</string>
+    <string name="cfg_sbram">Set Your RAM</string>
+    <string name="cfg_bgdir">Directory of Background Picture</string>
+    <string name="cfg_exjf">extraJavaFlags(If you do not understand this, please don t complete it.)</string>
+    
+    <string name="warn">It seemed that you did not install the Minecraft game file or Runtime, please download them from this link.</string>
+    	
+    <string name="login_title">Online</string>
+    <string name="login_account">Mojang account (Email)</string>
+    <string name="login_password">Password</string>
+    <string name="login_checkbox">Remember</string>
+    <string name="login">Login</string>
+    <string name="login_offline">Play Offline</string>
+    <string name="login_new">Add new account</string>
+    <string name="login_welcome">Welcome Player</string>
+    <string name="login_as">Enter the launcher as</string>
+    <string name="login_ing">Waiting...</string>
+    <string name="login_retry">Retry</string>
+    <string name="login_env">[English(US/Default)]</string>
+    
+    <string name="down">Download(Beta)</string>
+    <string name="downtip">If you interrupt the process of this app, you should press DELETE to clear the cache and redownload.</string>
+    
+    
+    
+</resources>

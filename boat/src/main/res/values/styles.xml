@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BoatTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/BoatActionBarStyle</item>
+    </style>
+    <style name="BoatActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+		
+	<style name="FullScreenTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+		<item name="android:windowFullscreen">true</item>
+	</style>
+	<style name="DirTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+  
+    
+
+</resources>

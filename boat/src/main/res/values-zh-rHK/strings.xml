@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Boat_H2O(v4)</string>
+	<string name="play">啟動程式</string>
+	<string name="excute">執行操作</string>
+	<string name="install">安裝</string>
+	<string name="mouse_primary">Pri</string>
+    <string name="mouse_secondary">Sec</string>
+    <string name="control_chat">對話</string>
+	<string name="control_command">命令</string>
+    <string name="control_debug">調試</string>
+    <string name="control_shift">■</string>
+    <string name="control_inventory">E</string>
+	<string name="control_thirdperson">視角</string>
+	<string name="control_jump">■</string>
+    <string name="control_up">▲</string>
+    <string name="control_left">◀</string>
+    <string name="control_right">▶</string>
+    <string name="control_down">▼</string>
+    <string name="control_keyboard">鍵盤</string>
+	<string name="esc">退出</string>
+	<string name="step0">No such file!</string>
+	<string name="step1">Installing...</string>
+	<string name="step2">Package has been extracted in </string>
+	<string name="step3">Try to set executing permission: true</string>
+	<string name="step4">Try to set executing permission: false</string>
+	<string name="step5">Setting up property...</string>
+	<string name="step6">Finished!</string>
+	<string name="step7">Command process exited with value: </string>
+
+	<string name="cfg_inputhint">填寫運行庫路徑，如果您安裝了就不要填這個</string>    
+    <string name="cfg_name">填寫您的ID，最好用英文+數字的方式來進行伺服器遊玩</string>
+    <string name="cfg_ram">Extra Java Flag(默認的文字是 -client -Xmx750M，您如果忘記了可以複製這裡的字。)</string>
+    <string name="cfg_nofile">文件不全！</string>
+    <string name="cfg_cb">進階設定</string>
+    <string name="cfg_sbram">設定你的運行內存</string>
+    <string name="cfg_bgdir">在這裡輸入背景圖片的文件位置</string>
+    <string name="cfg_exjf">這個是額外JVM參數，你不會的話就別管這裡。</string>
+    
+    
+    <string name="login_title">Online</string>
+    <string name="login_account">Mojang帳號(Email)</string>
+    <string name="login_password">密碼</string>
+    <string name="login_checkbox">記住當前輸入的密碼</string>
+    <string name="login">登入遊戲</string>
+    <string name="login_offline">離線遊玩</string>
+    <string name="login_new">新帳號</string>
+    <string name="login_welcome">歡迎，</string>
+    <string name="login_as">進入啟動器，作為</string>
+    <string name="login_ing">登入中...</string>
+    <string name="login_retry">請重新嘗試</string>
+    <string name="login_env">[繁體中文(香港)]</string>
+    
+    <string name="down">下載必要Minecraft元素(Beta)</string>
+    <string name="downtip">Minecraft的元素包含遊戲主體目錄和運行庫，下載Minecraft元素需要您保持該軟體的正常運作，如果您不小心殺死了這個軟體，需要您按下Delete鍵清除快取，重新啟動軟體並下載。</string>
+    
+ 
+ 
+ 
+ 
+    
+</resources>

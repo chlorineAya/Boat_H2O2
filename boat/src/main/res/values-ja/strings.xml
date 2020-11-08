@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ボート-水</string>
+	<string name="play">ゲーム</string>
+	<string name="excute">オペレーティング</string>
+	<string name="install">インストールを実行</string>
+	<string name="mouse_primary">Pri</string>
+    <string name="mouse_secondary">Sec</string>
+    <string name="control_chat">チャット</string>
+	<string name="control_command">命令</string>
+    <string name="control_debug">デバッグ</string>
+    <string name="control_shift">しゃがみます</string>
+    <string name="control_inventory">バックパック</string>
+	<string name="control_thirdperson">遠近法</string>
+	<string name="control_jump">■</string>
+    <string name="control_up">▲</string>
+    <string name="control_left">◀</string>
+    <string name="control_right">▶</string>
+    <string name="control_down">▼</string>
+    <string name="control_keyboard">キーボード</string>
+	<string name="esc">ゲームを終了する</string>
+	<string name="step0">No such file!</string>
+	<string name="step1">Installing...</string>
+	<string name="step2">Package has been extracted in </string>
+	<string name="step3">Try to set executing permission: true</string>
+	<string name="step4">Try to set executing permission: false</string>
+	<string name="step5">Setting up property...</string>
+	<string name="step6">Finished!</string>
+	<string name="step7">Command process exited with value: </string>
+ 
+    <string name="cfg_name">ID</string>
+    <string name="cfg_ram">Extra Java Flags(デフォルト: -client -Xmx750M, デフォルトのテキストを忘れた場合は、このテキストからコピーできます。)</string>
+    <string name="cfg_inputhint">Runtime (ファイルパス)</string>
+    <string name="cfg_nofile">ファイルがありません</string>
+    <string name="cfg_cb">その他の設定</string>
+    <string name="cfg_sbram">実行中のメモリ</string>
+    <string name="cfg_bgdir">背景画像のファイルパス</string>
+    <string name="cfg_exjf">追加のJVMパラメーター(あなたがこれを知らないなら，このテキストボックスには入力しないでください。)</string>
+    	
+    <string name="login_title">オンライン</string>
+    <string name="login_account">Mojang account (Email)</string>
+    <string name="login_password">パスワード</string>
+    <string name="login_checkbox">パスワードを覚える</string>
+    <string name="login">ログイン</string>
+    <string name="login_offline">オフライン</string>
+    <string name="login_new">アカウントを追加する</string>
+    <string name="login_welcome">こんにちはプレーヤー</string>
+    <string name="login_as">プレイヤーとして入る</string>
+    <string name="login_ing">ログイン...</string>
+    <string name="login_retry">もう一度お試しください</string>
+    <string name="login_env">[日本語]</string>
+    
+    <string name="down">ダウンロード(ベータ)</string>
+    <string name="downtip">マインクラフトファイル，このソフトウェアを誤ってオフにした場合(ダウンロードするとき)，クリックDelete，もう一度ダウンロード。</string>
+    
+ 
+    
+ 
+ 
+</resources>

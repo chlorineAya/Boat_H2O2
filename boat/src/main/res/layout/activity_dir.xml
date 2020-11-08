@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.custompullmenu.ui.LoginActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:id="@+id/userView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27.67dp"
+        android:layout_marginStart="27.67dp"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:id="@+id/userET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint=""
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textColorHint="#a4a4a4"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:id="@+id/historyCB"
+              android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/userView"
+        android:layout_marginEnd="27.67dp"
+        android:layout_marginStart="27.67dp"
+        android:background="#a4a4a4"/>
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1">
+
+    <RelativeLayout
+        android:id="@+id/passRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27.67dp"
+        android:layout_marginStart="27.67dp"
+        android:layout_marginTop="14.33dp">
+
+        <EditText
+            android:id="@+id/pwdET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHint="#a4a4a4"
+            android:textSize="16sp"/>
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/pwdET"
+            android:background="#a4a4a4"/>
+
+    </RelativeLayout>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/passRL"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/backCompany"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="horizontal"
+	android:gravity="center_vertical">
+	<ImageView
+		android:layout_height="25dp"
+		android:layout_width="25dp"
+		android:text="文本"
+		android:id="@+id/listImageView1"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="文本"
+		android:id="@+id/listTextView1"
+		android:layout_marginLeft="5dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,65 @@
+ProGuard, version 6.0.3
+ProGuard is released under the GNU General Public License. You therefore
+must ensure that programs that link to it (a, com.a4455jkjh.d, ...)
+carry the GNU General Public License as well. Alternatively, you can
+apply for an exception with the author of ProGuard.
+Reading input...
+Reading program directory [/storage/emulated/0/AppProjects/Boat/app/build/bin/classesrelease_proguard]
+Reading program jar [/storage/emulated/0/AppProjects/Boat/app/libs/gson-2.8.2.jar]
+Reading library jar [/data/data/com.aide.ui.mgai/no_backup/.aide/android.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'com.android.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: com.google.gson.FieldAttributes calls 'Field.getGenericType'
+Note: com.google.gson.FieldAttributes calls 'Field.getType'
+Note: com.google.gson.internal.$Gson$Types calls 'Class.getGenericInterfaces'
+Note: com.google.gson.internal.$Gson$Types calls 'Class.getGenericSuperclass'
+Note: com.google.gson.internal.$Gson$Types calls 'Class.getTypeParameters'
+Note: com.google.gson.internal.Excluder calls 'Field.getType'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Field.getType'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Field.getGenericType'
+Note: com.google.gson.internal.bind.ReflectiveTypeAdapterFactory calls 'Class.getGenericSuperclass'
+Note: com.google.gson.reflect.TypeToken calls 'Class.getGenericSuperclass'
+Note: com.google.gson.reflect.TypeToken calls 'Class.getTypeParameters'
+Note: com.google.gson.reflect.TypeToken calls 'Class.getGenericInterfaces'
+Note: com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl calls 'Class.getEnclosingClass'
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: com.google.gson.internal.UnsafeAllocator accesses a declared field 'theUnsafe' dynamically
+Note: there were 7 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 12 classes trying to access generic signatures using reflection.
+      You should consider keeping the signature attributes
+      (using '-keepattributes Signature').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 1 classes trying to access enclosing classes using reflection.
+      You should consider keeping the inner classes attributes
+      (using '-keepattributes InnerClasses').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 1 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 1 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 4531
+  Final number of library classes:    541
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/storage/emulated/0/AppProjects/Boat/app/build/bin/proguard.usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 215
+  Final number of program classes:    185
+Obfuscating...
+Printing mapping to [/storage/emulated/0/AppProjects/Boat/app/build/bin/proguard.mapping.txt]...
+Writing output...
+Preparing output directory [/storage/emulated/0/AppProjects/Boat/app/build/bin/proguard]
+  Copying resources from program directory [/storage/emulated/0/AppProjects/Boat/app/build/bin/classesrelease_proguard]
+  Copying resources from program jar [/storage/emulated/0/AppProjects/Boat/app/libs/gson-2.8.2.jar]

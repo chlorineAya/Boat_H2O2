@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:layout_centerVertical="true"
+		android:paddingTop="10dp">
+
+		<Button
+			android:id="@+id/downloaddir"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Download/本体/Gamedir"
+			android:background="@drawable/btn_white"/>
+
+		<Button
+			android:id="@+id/downloadrun"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Download/运行库/Runtime"
+			android:background="@drawable/btn_white"/>
+
+		<Button
+			android:id="@+id/delf"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Delete/删除"
+			android:background="@drawable/btn_blue"
+			android:textColor="#FFFFFFFF"
+			android:elevation="30dp"/>
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/downtip"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

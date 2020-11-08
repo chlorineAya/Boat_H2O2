@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#60ffffff">
+    <item
+		android:left="5dp" 
+		android:top="5dp" 
+		android:right="5dp" 
+		android:bottom="5dp">
+        <shape >
+    <solid android:color="#FFFF0000" />
+    <corners android:topLeftRadius="0.0dip" android:topRightRadius="0.0dip" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="0.0dip" />
+			<stroke android:width="0.10dip" android:color="#FFFF0000" />
+    <padding android:left="10.0dip" android:top="5.0dip" android:right="10.0dip" android:bottom="5.0dip" />
+    
+        </shape>
+    </item>
+</ripple>
