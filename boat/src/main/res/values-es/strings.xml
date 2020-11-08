@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Barco_H2O</string>
+	<string name="play">juego</string>
+	<string name="excute">llevado a cabo</string>
+	<string name="install">instalación</string>
+	<string name="mouse_primary">Pri</string>
+    <string name="mouse_secondary">Sec</string>
+    <string name="control_chat">hablar</string>
+	<string name="control_command">mando</string>
+    <string name="control_debug">depuración</string>
+    <string name="control_shift">Cuclillas</string>
+    <string name="control_inventory">mochila</string>
+	<string name="control_thirdperson">Persona</string>
+	<string name="control_jump">■</string>
+    <string name="control_up">▲</string>
+    <string name="control_left">◀</string>
+    <string name="control_right">▶</string>
+    <string name="control_down">▼</string>
+    <string name="control_keyboard">Keyboard</string>
+	<string name="esc">regreso</string>
+	<string name="step0">No such file!</string>
+	<string name="step1">Installing...</string>
+	<string name="step2">Package has been extracted in </string>
+	<string name="step3">Try to set executing permission: true</string>
+	<string name="step4">Try to set executing permission: false</string>
+	<string name="step5">Setting up property...</string>
+	<string name="step6">Finished!</string>
+	<string name="step7">Command process exited with value: </string>
+ 
+    <string name="cfg_name">ID</string>
+    <string name="cfg_ram">Extra Java Flags(defecto: -client -Xmx750M, Si lo olvidas, puedes copiarlo desde aquí.)</string>
+    <string name="cfg_inputhint">Runtime (ruta de archivo)</string>
+    <string name="cfg_nofile">Archivo perdido!</string>
+    <string name="cfg_cb">Más ajustes</string>
+    <string name="cfg_sbram">Memoria en ejecución</string>
+    <string name="cfg_bgdir">Ruta de archivo de la imagen de fondo</string>
+    <string name="cfg_exjf">Parámetros de JVM adicionales(Si no comprende, no ingrese aquí.)</string>
+    
+    <string name="warn">Parece que no tienes archivos de Minecraft / "Runtime" instalados, Descarga desde aquí.</string>
+    	
+    <string name="login_title">En línea</string>
+    <string name="login_account">Mojang account (Email)</string>
+    <string name="login_password">contraseña</string>
+    <string name="login_checkbox">Recordar contraseña</string>
+    <string name="login">iniciar sesión</string>
+    <string name="login_offline">Desconectado</string>
+    <string name="login_new">Añadir cuenta</string>
+    <string name="login_welcome">Bienvenidos jugadores</string>
+    <string name="login_as">Entrar como jugador</string>
+    <string name="login_ing">Iniciando sesión...</string>
+    <string name="login_retry">Inténtalo de nuevo</string>
+    <string name="login_env">[Spanish]</string>
+    
+    <string name="down">Descargar(Beta)</string>
+    <string name="downtip">Mata el proceso de descarga, Necesito hacer clic en el botón Eliminar(Delete), Luego descarga de nuevo.</string>
+    
+ 
+</resources>

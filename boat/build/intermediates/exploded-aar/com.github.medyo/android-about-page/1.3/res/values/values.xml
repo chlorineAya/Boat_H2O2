@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="about_background_color">#FFFFFF</color>
+    <color name="about_background_dark_color">#303030</color>
+    <color name="about_description_dark_text_color">#C1C1C1</color>
+    <color name="about_description_text_color">#595959</color>
+    <color name="about_facebook_color">#3b5998</color>
+    <color name="about_github_color">#333333</color>
+    <color name="about_instagram_color">#3f729b</color>
+    <color name="about_item_dark_text_color">#FFFFFF</color>
+    <color name="about_item_icon_color">#313131</color>
+    <color name="about_item_text_color">#7c7c7c</color>
+    <color name="about_play_store_color">#689F38</color>
+    <color name="about_separator_color">#e1e1e1</color>
+    <color name="about_separator_dark_color">#494949</color>
+    <color name="about_text_color">#595959</color>
+    <color name="about_text_dark_color">#C1C1C1</color>
+    <color name="about_twitter_color">#55acee</color>
+    <color name="about_youtube_color">#cd201f</color>
+    <dimen name="about_description_text_size">16sp</dimen>
+    <dimen name="about_group_item_text_size">18sp</dimen>
+    <dimen name="about_group_text_padding">16dp</dimen>
+    <dimen name="about_icon_padding">8dp</dimen>
+    <dimen name="about_icon_size">34dp</dimen>
+    <dimen name="about_item_text_size">16sp</dimen>
+    <dimen name="about_separator_height">0.5dp</dimen>
+    <dimen name="about_text_padding">8dp</dimen>
+    <string name="about_contact_us">Contact us</string>
+    <string name="about_facebook">Like us on Facebook</string>
+    <string name="about_github">Fork us on GitHub</string>
+    <string name="about_instagram">Follow us on Instagram</string>
+    <string name="about_page_description" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula ligula tortor, in pellentesque dui congue ac. Vestibulum lacinia urna magna, quis cursus ante iaculis nec. Nunc ut ligula sit amet odio ultrices euismod vel vel purus. Sed lacus mauris, aliquam et placerat id</string>
+    <string name="about_play_store">Rate us on the Play Store</string>
+    <string name="about_twitter">Follow us on Twitter</string>
+    <string name="about_website">Visit our website</string>
+    <string name="about_youtube">Watch us on Youtube</string>
+    <style name="about_About"/>
+    <style name="about_About.wrapper">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/about_background_color</item>
+    </style>
+    <style name="about_description" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/about_page_description</item>
+        <item name="android:lineSpacingExtra">8dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textColor">@color/about_description_text_color</item>
+        <item name="android:textSize">@dimen/about_description_text_size</item>
+    </style>
+    <style name="about_elementTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/about_text_color</item>
+        <item name="android:textSize">@dimen/about_item_text_size</item>
+    </style>
+    <style name="about_groupTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/about_item_text_color</item>
+        <item name="android:textSize">@dimen/about_group_item_text_size</item>
+    </style>
+    <style name="about_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+    <style name="about_separator">
+        <item name="android:layout_height">@dimen/about_separator_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/about_separator_color</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    <style name="about_sub_wrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+    </style>
+</resources>

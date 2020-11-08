@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6F9F9f</color>
+    <color name="colorPrimaryDark">#FF6f8f9F</color>
+    <color name="colorAccent">#FF6F9F9F</color>
+    <color name="colorAccentDark">#FF6f8f9F</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorSplitLine">#cccccc</color>
+    <color name="transparent">#00000000</color>
+    <color name="activityBackground">#DDDEE6</color>
+    <color name="textColorHint">#AAAAAA</color>
+    <color name="announceColor">#252525</color>
+    <color name="darkGray">#888888</color>
+    <color name="textRevisability">#FF888888</color>
+    <color name="apply_text">#FF666666</color>
+    <color name="detail_text">#FF713F0B</color>
+    <color name="textGray">#959595</color>
+    <color name="divider">#D7D7D7</color>
+    <color name="taskcolor">#898989</color>
+    <color name="backCompany">#FFFF9C00</color>
+    <color name="switChing">#FFFEC831</color>
+    <color name="textSwitChing">#FF713F0B</color>
+    <color name="text_notell">#333333</color>
+    <color name="clickColor">#FFFCF0</color>
+    <color name="bottomBackground">#f8f8f8</color>
+    <color name="phoneNumber">#FF151515</color>
+    <color name="industryText">#FF222222</color>
+    <color name="taskListItemTitleBG">#F3F3F3</color>
+</resources>

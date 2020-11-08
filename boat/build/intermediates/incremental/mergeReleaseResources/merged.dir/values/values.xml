@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="theme_primary">#ff468ef5</color>
+    <color name="white">#FFFFFF</color>
+    <string name="about">关于BoatKr</string>
+    <string name="app_name">Boat</string>
+    <string name="control_chat">Chat</string>
+    <string name="control_command">Cmd</string>
+    <string name="control_debug">Debug</string>
+    <string name="control_down">▼</string>
+    <string name="control_inventory">Inv</string>
+    <string name="control_jump">■</string>
+    <string name="control_left">◀</string>
+    <string name="control_right">▶</string>
+    <string name="control_shift">Sft</string>
+    <string name="control_thirdperson">3rd</string>
+    <string name="control_up">▲</string>
+    <string name="esc">Esc</string>
+    <string name="excute">Excute</string>
+    <string name="install">Install</string>
+    <string name="mouse_primary">Pri</string>
+    <string name="mouse_secondary">Sec</string>
+    <string name="play">Play</string>
+    <style name="BoatActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/theme_primary</item>
+    </style>
+    <style name="BoatTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/BoatActionBarStyle</item>
+    </style>
+    <style name="FullScreenTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+		<item name="android:windowFullscreen">true</item>
+	</style>
+    <style name="WowTheme" parent="@android:style/Theme.Material.Light" ns1:targetApi="lollipop">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="WowThemeNoActionBar" parent="@android:style/Theme.Material.Light.NoActionBar" ns1:targetApi="lollipop">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

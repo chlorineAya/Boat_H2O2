@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cosine.boat"
+4    android:versionCode="18"
+5    android:versionName="0.2.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:5:5-7:35
+12        android:glEsVersion="0x00020000"
+12-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:6:9-41
+13        android:required="true" />
+13-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:7:9-32
+14
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:8:5-9:68
+15-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:9:9-65
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:10:5-11:54
+16-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:11:9-51
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:12:5-13:66
+17-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:13:9-63
+18
+19    <application
+19-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:15:5-52:19
+20        android:icon="@drawable/ic_boat"
+20-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:19:9-41
+21        android:label="@string/app_name"
+21-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:17:9-41
+22        android:largeHeap="true"
+22-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:18:9-33
+23        android:testOnly="true"
+24        android:theme="@style/BoatTheme" >
+24-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:16:9-41
+25        <activity
+25-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:20:9-28:20
+26            android:name="cosine.boat.LauncherActivity"
+26-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:22:13-44
+27            android:configChanges="keyboardHidden|orientation"
+27-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:23:13-63
+28            android:label="@string/app_name" >
+28-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:21:13-45
+29            <intent-filter>
+29-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:24:13-27:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:25:17-69
+30-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:25:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:26:17-77
+32-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:26:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <meta-data
+36-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:29:9-31:32
+37            android:name="android.max_aspect"
+37-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:30:11-44
+38            android:value="4.0" />
+38-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:31:11-30
+39
+40        <service
+40-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:32:9-34:47
+41            android:name="ru.ivanarh.jndcrash.NDCrashService"
+41-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:33:13-62
+42            android:process=":reportprocess" />
+42-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:34:13-45
+43        <service
+43-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:35:9-37:47
+44            android:name="cosine.boat.logcat.LogcatService"
+44-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:36:13-60
+45            android:process=":logcatprocess" />
+45-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:37:13-45
+46
+47        <activity
+47-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:38:9-48:20
+48            android:name="cosine.boat.BoatClientActivity"
+48-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:38:19-52
+49            android:configChanges="orientation|keyboardHidden"
+49-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:41:13-63
+50            android:label="@string/app_name"
+50-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:40:13-45
+51            android:screenOrientation="sensorLandscape"
+51-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:42:13-56
+52            android:theme="@style/FullScreenTheme" >
+52-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:39:13-51
+53            <meta-data
+53-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:44:13-46:42
+54                android:name="android.app.lib_name"
+54-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:45:17-52
+55                android:value="client" />
+55-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:46:17-39
+56        </activity>
+57        <activity
+57-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:49:9-51:44
+58            android:name="cosine.boat.AboutKr"
+58-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:49:19-42
+59            android:label="@string/about"
+59-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:51:13-42
+60            android:theme="@style/WowThemeNoActionBar" />
+60-->C:\Users\Vindows95\Documents\Boat\app\src\main\AndroidManifest.xml:50:13-55
+61    </application>
+62
+63</manifest>
