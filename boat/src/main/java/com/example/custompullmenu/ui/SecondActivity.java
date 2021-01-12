@@ -3,7 +3,7 @@ package com.example.custompullmenu.ui;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.custompullmenu.R;
+import cosine.boat.R;
 
 public class SecondActivity extends AppCompatActivity {
 

@@ -9,12 +9,13 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.example.custompullmenu.R;
 import com.example.custompullmenu.business.AccountDao;
 import com.example.custompullmenu.business.HistoryInfo;
 import com.example.custompullmenu.ui.DirchangeActivity;
 
 import java.util.ArrayList;
+
+import cosine.boat.R;
 
 
 /**
