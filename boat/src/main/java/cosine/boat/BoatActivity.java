@@ -139,8 +139,8 @@ public class BoatActivity extends NativeActivity implements View.OnClickListener
 				}
 			});
 		
-		touchPad2.setVisibility(4);
-		fwc.setVisibility(4);
+		touchPad2.setVisibility(View.INVISIBLE);
+		fwc.setVisibility(View.INVISIBLE);
 		
 		controlUp = this.findButton(R.id.control_up);
 		controlDown = this.findButton(R.id.control_down);
@@ -312,8 +312,8 @@ public class BoatActivity extends NativeActivity implements View.OnClickListener
 //--------------------
 
 		
-		show.setVisibility(4);
-		allkeyoff.setVisibility(4);
+		show.setVisibility(View.INVISIBLE);
+		allkeyoff.setVisibility(View.INVISIBLE);
 		
 		itemBar = (LinearLayout)base.findViewById(R.id.item_bar);
 		mousePrimary = this.findButton(R.id.mouse_primary);
@@ -635,78 +635,78 @@ public class BoatActivity extends NativeActivity implements View.OnClickListener
 //  按键开
 	private void overlayshow()
 	{
-	this.controlUp.setVisibility(0);
-	this.controlDown.setVisibility(0);
-	this.controlLeft.setVisibility(0);
-	this.controlRight.setVisibility(0);
-	this.controlJump.setVisibility(0);
-	this.controlLshift.setVisibility(0);
-	this.controlInv.setVisibility(0);
-	this.mousePrimary.setVisibility(0);
-	this.mouseSecondary.setVisibility(0);
-	this.mouseThird.setVisibility(0);
-	this.mousePgup.setVisibility(0);
-	this.mousePgdn.setVisibility(0);
-	this.controlBs.setVisibility(0);
-	this.control3rd.setVisibility(0);
-	this.controlChat.setVisibility(0);
-	this.controlCommand.setVisibility(0);
-	this.esc.setVisibility(0);
-	this.controlDebug.setVisibility(0);
-	this.controlSwitch.setVisibility(0);
-	this.controlThrow.setVisibility(0);
-	this.inputScanner.setVisibility(0);
-	this.input.setVisibility(0);
-	this.send.setVisibility(0);
-	this.allkeyon.setVisibility(0);
-	this.show.setVisibility(4);
-	this.hide.setVisibility(0);
+	this.controlUp.setVisibility(View.VISIBLE);
+	this.controlDown.setVisibility(View.VISIBLE);
+	this.controlLeft.setVisibility(View.VISIBLE);
+	this.controlRight.setVisibility(View.VISIBLE);
+	this.controlJump.setVisibility(View.VISIBLE);
+	this.controlLshift.setVisibility(View.VISIBLE);
+	this.controlInv.setVisibility(View.VISIBLE);
+	this.mousePrimary.setVisibility(View.VISIBLE);
+	this.mouseSecondary.setVisibility(View.VISIBLE);
+	this.mouseThird.setVisibility(View.VISIBLE);
+	this.mousePgup.setVisibility(View.VISIBLE);
+	this.mousePgdn.setVisibility(View.VISIBLE);
+	this.controlBs.setVisibility(View.VISIBLE);
+	this.control3rd.setVisibility(View.VISIBLE);
+	this.controlChat.setVisibility(View.VISIBLE);
+	this.controlCommand.setVisibility(View.VISIBLE);
+	this.esc.setVisibility(View.VISIBLE);
+	this.controlDebug.setVisibility(View.VISIBLE);
+	this.controlSwitch.setVisibility(View.VISIBLE);
+	this.controlThrow.setVisibility(View.VISIBLE);
+	this.inputScanner.setVisibility(View.VISIBLE);
+	this.input.setVisibility(View.VISIBLE);
+	this.send.setVisibility(View.VISIBLE);
+	this.allkeyon.setVisibility(View.VISIBLE);
+	this.show.setVisibility(View.INVISIBLE);
+	this.hide.setVisibility(View.VISIBLE);
 	}
 //按键关
 	private void overlayhide()
 	{
-	this.controlUp.setVisibility(4);
-	this.controlDown.setVisibility(4);
-	this.controlLeft.setVisibility(4);
-	this.controlRight.setVisibility(4);
-	this.controlJump.setVisibility(4);
-	this.controlLshift.setVisibility(4);
-	this.controlInv.setVisibility(4);
-	this.mousePrimary.setVisibility(4);
-	this.mouseSecondary.setVisibility(4);
-	this.mouseThird.setVisibility(4);
-	this.mousePgup.setVisibility(4);
-	this.mousePgdn.setVisibility(4);
-	this.controlBs.setVisibility(4);
-	this.control3rd.setVisibility(4);
-	this.controlChat.setVisibility(4);
-	this.controlCommand.setVisibility(4);
-	this.esc.setVisibility(4);
-	this.controlDebug.setVisibility(4);
-	this.controlSwitch.setVisibility(4);
-	this.controlThrow.setVisibility(4);
-	this.inputScanner.setVisibility(4);
-	this.input.setVisibility(4);
-	this.send.setVisibility(4);
-	this.allkeyon.setVisibility(4);
-	this.allkeyoff.setVisibility(4);
-	this.show.setVisibility(0);
-	this.hide.setVisibility(4);
-	this.allkey.setVisibility(4);
+	this.controlUp.setVisibility(View.INVISIBLE);
+	this.controlDown.setVisibility(View.INVISIBLE);
+	this.controlLeft.setVisibility(View.INVISIBLE);
+	this.controlRight.setVisibility(View.INVISIBLE);
+	this.controlJump.setVisibility(View.INVISIBLE);
+	this.controlLshift.setVisibility(View.INVISIBLE);
+	this.controlInv.setVisibility(View.INVISIBLE);
+	this.mousePrimary.setVisibility(View.INVISIBLE);
+	this.mouseSecondary.setVisibility(View.INVISIBLE);
+	this.mouseThird.setVisibility(View.INVISIBLE);
+	this.mousePgup.setVisibility(View.INVISIBLE);
+	this.mousePgdn.setVisibility(View.INVISIBLE);
+	this.controlBs.setVisibility(View.INVISIBLE);
+	this.control3rd.setVisibility(View.INVISIBLE);
+	this.controlChat.setVisibility(View.INVISIBLE);
+	this.controlCommand.setVisibility(View.INVISIBLE);
+	this.esc.setVisibility(View.INVISIBLE);
+	this.controlDebug.setVisibility(View.INVISIBLE);
+	this.controlSwitch.setVisibility(View.INVISIBLE);
+	this.controlThrow.setVisibility(View.INVISIBLE);
+	this.inputScanner.setVisibility(View.INVISIBLE);
+	this.input.setVisibility(View.INVISIBLE);
+	this.send.setVisibility(View.INVISIBLE);
+	this.allkeyon.setVisibility(View.INVISIBLE);
+	this.allkeyoff.setVisibility(View.INVISIBLE);
+	this.show.setVisibility(View.VISIBLE);
+	this.hide.setVisibility(View.INVISIBLE);
+	this.allkey.setVisibility(View.INVISIBLE);
 	}
 //全键开
 	private void allkeyon()
 	{
-	this.allkeyon.setVisibility(4);
-	this.allkeyoff.setVisibility(0);
-	this.allkey.setVisibility(0);
+	this.allkeyon.setVisibility(View.INVISIBLE);
+	this.allkeyoff.setVisibility(View.VISIBLE);
+	this.allkey.setVisibility(View.VISIBLE);
 	}
 //全键关
 	private void allkeyoff()
 	{
-	this.allkeyon.setVisibility(0);
-	this.allkeyoff.setVisibility(4);
-	this.allkey.setVisibility(4);
+	this.allkeyon.setVisibility(View.VISIBLE);
+	this.allkeyoff.setVisibility(View.INVISIBLE);
+	this.allkey.setVisibility(View.INVISIBLE);
 	}
 	
 	
