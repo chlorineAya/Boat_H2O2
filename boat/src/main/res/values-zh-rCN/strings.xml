@@ -27,7 +27,7 @@
 	<string name="step5">Setting up property...</string>
 	<string name="step6">Finished!</string>
 	<string name="step7">Command process exited with value: </string>
-	<string name="cfg_inputhint">运行库路径，若安装则无视</string>
+    <!-- <string name="cfg_inputhint">运行库路径，若安装则无视</string> -->
     
     <string name="cfg_name">游戏ID(若需要玩服务器建议使用英文+数字)</string>
     <string name="cfg_ram">JVM参数/内存(默认请填 -client -Xmx750M，此段文本可复制)</string>
