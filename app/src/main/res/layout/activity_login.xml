@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="35dp"
+	android:paddingRight="30dp"
+	android:paddingLeft="30dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/login_env"
+		android:id="@+id/log"
+		android:textIsSelectable="true"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/activitymainLinearLayout1"
+		android:layout_marginTop="235dp">
+
+		<FrameLayout
+			android:id="@+id/username_layout"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp">
+
+			<EditText
+				android:id="@+id/username"
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:hint="@string/login_account"
+				android:inputType="text"
+				android:background="@drawable/control_button">
+
+			</EditText>
+
+			<ImageButton
+				android:id="@+id/dropdown_button"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginRight="5dip"
+				android:layout_gravity="right|center_vertical"
+				android:background="@drawable/drop"
+				android:contentDescription="@string/app_name"
+				android:alpha="0.5"/>
+
+		</FrameLayout>
+
+		<EditText
+			android:id="@+id/password"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:hint="@string/login_password"
+			android:inputType="textPassword"
+			android:background="@drawable/control_button"/>
+
+		<CheckBox
+			android:id="@+id/remember"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:text="@string/login_checkbox"
+			android:textAppearance="@android:style/TextAppearance.Small"
+			android:textColor="#716b60"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/msg"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="15dp"
+			android:visibility="gone"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/msg2"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="15dp"
+			android:visibility="gone"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/msg0"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="15dp"
+			android:visibility="gone"/>
+
+	</LinearLayout>
+
+	<ImageView
+		android:src="@drawable/ic_h2o2_lowpx"
+		android:layout_width="75dp"
+		android:layout_height="75dp"
+		android:layout_centerInParent="true"
+		android:id="@+id/img1"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/img1"
+		android:id="@+id/login_text"
+		android:textSize="16sp"
+		android:gravity="center"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="50dp"
+		android:layout_centerInParent="true"
+		android:gravity="center|center_horizontal"
+		android:layout_alignParentBottom="true">
+
+		<Button
+			android:id="@+id/newacc"
+			android:layout_width="150dp"
+			android:layout_height="60dp"
+			android:drawableTop="@+drawable/add_blue"
+			android:layout_weight="10.0"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="@string/login_new"
+			android:textColor="#ff83b2ff"/>
+
+		<Button
+			android:id="@+id/login"
+			android:layout_width="75dp"
+			android:layout_height="75dp"
+			android:drawableTop="@+drawable/arrow_right"
+			android:background="@drawable/btn_green"
+			android:textColor="#FFFFFFFF"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/offline"
+			android:layout_width="150dp"
+			android:layout_height="60dp"
+			android:layout_weight="10.0"
+			android:drawableTop="@+drawable/offline_blue"
+			android:textColor="#ff83b2ff"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="@string/login_offline"
+			android:layout_gravity="center|center_horizontal"/>
+
+	</LinearLayout>
+
+	<ProgressBar
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/pb"
+		android:layout_marginBottom="150dp"
+		android:visibility="gone"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BoatTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">?android:colorPrimary</item>
+	</style>
+	 <style name="FullTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+		<item name="android:colorPrimary">#FF83B2FF</item>
+		 <item name="android:colorPrimaryDark">#FF83B2FF</item>
+		 <item name="android:colorAccent">#FF83B2FF</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+	</style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item android:title="@+string/menu_t1"
+		android:padding="10dp">
+	<menu>	
+		<group android:checkableBehavior="single" >
+			<item
+				android:id="@+id/m1"
+				android:icon="@drawable/menu_b_home"
+				android:checked="true"
+				android:title="@+string/menu_1"/>
+		</group>
+		<item
+		    android:id="@+id/m2"
+			android:icon="@drawable/menu_b_execute"
+			android:title="@+string/menu_2"/>
+		<item
+		    android:id="@+id/m3"
+			android:icon="@drawable/menu_b_custom"
+			android:title="@+string/menu_3"/>
+		<item
+		    android:id="@+id/m4"
+			android:icon="@drawable/menu_b_keys"
+			android:title="@+string/menu_4"/>
+	</menu>
+	</item>
+
+    <item android:title="@+string/menu_t2">
+        <menu>
+            <item
+                android:id="@+id/m5"
+                android:icon="@drawable/menu_mc_packs"
+                android:title="@+string/menu_5"/>
+            <item
+                android:id="@+id/m6"
+                android:icon="@drawable/menu_mc_worlds"
+                android:title="@+string/menu_6"/>
+            <item
+                android:id="@+id/m7"
+                android:icon="@drawable/menu_mc_textures"
+                android:title="@+string/menu_7"/>
+            <item
+                android:id="@+id/m8"
+                android:icon="@drawable/menu_mc_mods"
+                android:title="@+string/menu_8"/>
+        </menu>
+    </item>
+    
+    <item android:title="@+string/menu_t3">
+        <menu>
+            <item
+                android:id="@+id/m9"
+                android:icon="@drawable/menu_l_donate"
+                android:title="@+string/menu_9"/>
+            <item
+                android:id="@+id/m10"
+                android:icon="@drawable/menu_l_about"
+                android:title="@+string/menu_10"/>
+        </menu>
+    </item>
+
+</menu>

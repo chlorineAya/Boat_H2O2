@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="play">ゲーム</string>
+	<string name="excute">オペレーティング</string>
+	<string name="install">インストールを実行</string>
+	<string name="mouse_primary">Pri</string>
+    <string name="mouse_secondary">Sec</string>
+    <string name="control_chat">チャット</string>
+	<string name="control_command">命令</string>
+    <string name="control_debug">デバッグ</string>
+    <string name="control_shift">しゃがみます</string>
+    <string name="control_inventory">バックパック</string>
+	<string name="control_thirdperson">遠近法</string>
+	<string name="control_jump">■</string>
+    <string name="control_up">▲</string>
+    <string name="control_left">◀</string>
+    <string name="control_right">▶</string>
+    <string name="control_down">▼</string>
+    <string name="control_keyboard">キーボード</string>
+   </resources>

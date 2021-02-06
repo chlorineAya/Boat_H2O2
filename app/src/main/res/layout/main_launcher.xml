@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:id="@+id/container"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="5dp">
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/cardView"
+				app:cardCornerRadius="8dp"
+				android:onClick="start"
+				android:foreground="?android:attr/selectableItemBackgroundBorderless"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp">
+
+				<LinearLayout
+					android:id="@+id/container"
+					android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+
+					<ImageView
+						android:layout_height="150dp"
+						android:layout_width="match_parent"
+						android:scaleType="centerCrop"
+						android:src="@drawable/ic_boat">
+
+					</ImageView>
+
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="15dp"
+						android:textSize="22sp"
+						android:id="@+id/vet"
+						android:text="Minecraft Java Edition"/>
+
+					<Spinner
+						android:id="@+id/ver"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="15dp"
+						android:layout_weight="1"/>
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+
+			<android.support.v7.widget.CardView
+				android:id="@+id/cardView"
+				app:cardCornerRadius="8dp"
+				android:foreground="?android:attr/selectableItemBackgroundBorderless"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/dirshow"
+					android:padding="15dp"
+					android:text="Minecraft Java Edition"/>
+
+			</android.support.v7.widget.CardView>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_marginTop="15dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@+drawable/ic_layer_blue"
+				android:drawableRight="@+drawable/ic_arrow_r_blue"
+				android:text="@string/menu_15"
+				android:gravity="left|center_vertical"
+				android:id="@+id/gomc"
+				android:onClick="mc"/>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@+drawable/menu_b_execute_blue"
+				android:drawableRight="@+drawable/ic_arrow_r_blue"
+				android:text="@string/menu_16"
+				android:gravity="left|center_vertical"
+				android:id="@+id/gorun"
+				android:onClick="runtime"/>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

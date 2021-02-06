@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cosine.boat.LauncherActivity">
+	
+	<item
+        android:id="@+id/dela"
+        android:icon="@+drawable/list_delete"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="90"
+        android:title="@string/menu_5_del"
+        app:showAsAction="ifRoom"/>
+   
+	<item
+        android:id="@+id/ladd"
+        android:icon="@+drawable/toolbar_add"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="90"
+        android:title="@string/menu_5_add"
+        app:showAsAction="ifRoom"/>
+    
+  
+
+</menu>
