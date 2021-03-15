@@ -10,6 +10,10 @@
 		android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission 
 		android:name="android.permission.INTERNET" />
+	<uses-permission
+		android:name="android.permission.DISABLE_KEYGUARD" />
+	<uses-permission 
+		android:name="android.permission.READ_LOGS" />
     <uses-permission 
 		android:name="android.permission.ACCESS_NETWORK_STATE" />
 	
@@ -22,10 +26,29 @@
 			android:name="LauncherActivity" 
 			android:configChanges="keyboardHidden|orientation">
         </activity>
+        <activity 
+			android:label="@string/app_name" 
+			android:name="LauncherActivityMk" 
+			android:configChanges="keyboardHidden|orientation">
+        </activity>
 		<service 
 			android:name="cosine.boat.logcat.LogcatService" 
 			android:process=":logcatprocess"/>
 		<activity android:name="BoatActivity"
+			android:theme="@style/FullTheme"
+			android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden"
+			android:screenOrientation="sensorLandscape"
+			
+			android:excludeFromRecents="false"
+			android:launchMode="singleInstance"
+			android:alwaysRetainTaskState="true">
+			<meta-data 
+				android:name="android.app.lib_name"
+				android:value="boat" />
+			
+        </activity>
+        <activity android:name="BoatActivityMk"
 			android:theme="@style/FullTheme"
 			android:label="@string/app_name"
 			android:configChanges="orientation|keyboardHidden"
