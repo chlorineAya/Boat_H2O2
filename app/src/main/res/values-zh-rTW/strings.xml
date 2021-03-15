@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Boat_H2O2</string>
+    
+    <string name="title_activity_drawer_layout_one">DrawerLayout+NavigationView</string>
+    <string name="title_activity_drawer_layout_below">NavigationView below Toolbar</string>
+    <string name="title_activity_drawer_layout_other">DrawerLayout+other</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+	<string name="install">Install</string>
+    <string name="health"></string>
+    
+    <string name="menu_t1">啟動</string>
+    <string name="menu_t2">麥塊</string>
+    <string name="menu_t3">關於</string>
+    
+    <string name="menu_1">主頁面</string>
+    <string name="menu_12">運行庫為安裝好</string>
+    <string name="menu_13">沒有安裝Minecraft版本，請自行在目錄管理中安裝zip包。</string>
+    <string name="menu_14">請選擇遊戲版本</string>
+    <string name="menu_15">安裝Minecraft，請在目錄管理中安裝zip包。</string>
+    <string name="menu_16">安裝Java運行庫或者其他補丁包</string>
+    <string name="menu_17">請選擇Minecraft版本</string>
+    <string name="menu_18">錯誤的路徑，重新選擇！</string>
+    <string name="menu_19">未發現gamedir或者config，請點擊設置默認目錄重置。</string>
+    <string name="mk">開啟鍵鼠模式(Beta)</string>
+    <string name="mk2">返回鍵改成右鍵</string>
+     
+    <string name="menu_2">測試</string>
+    <string name="menu_2_hint">運行庫所在路徑(tar.xz)</string>
+    
+    <string name="menu_3">設定</string>
+    <string name="menu_3_name">離線ID</string>
+    <string name="menu_3_mem">JVM參數(非專業人士不建議調整)</string>
+    
+    <string name="menu_4">鍵盤佈局</string>  
+     
+    <string name="menu_5">目錄管理</string>
+    <string name="menu_5_adt">提示</string>
+    <string name="menu_5_adm">是否刪除這個文件？</string>
+    <string name="menu_5_tt">該目錄已被刪除，現在是默認目錄。</string>
+    <string name="menu_5_ttd">安裝成功！</string>
+    <string name="menu_5_ttdn">安裝了錯誤的zip包，請選擇正確的包。您可以在我新開的resource的GitHub的倉庫中找到</string>
+    <string name="menu_5_dfd">設置默認目錄</string>
+    <string name="menu_5_ttt">已設置默認目錄</string>
+    <string name="menu_5_adtt">提示</string>
+    <string name="menu_5_hint">輸入目錄備註以便於安裝。</string>
+    <string name="menu_5_ref">刷新</string>
+    <string name="menu_5_dn">下載</string>
+    <string name="menu_5_add">添加</string>
+    <string name="menu_5_del">刪除</string>
+    <string name="menu_5_delall">刪除全部文件？</string>
+    
+    <string name="menu_6">存檔管理</string>
+    
+    <string name="menu_7">材質管理</string>
+    
+    <string name="menu_8">Mod管理</string>
+    
+    <string name="menu_9">打賞</string>
+    <string name="menu_9_1">感謝您對雙氧水啟動器支持</string>
+    <string name="menu_9_richer">捐贈榜(ver1.0 2020.12-2021.2)</string>
+    
+    <string name="menu_10">關於Boat_H2O2</string>
+    <string name="menu_10_1">由酷安用戶@東風谷早喵開發，使用BoatApp作為啟動器依賴的後端。Boat_H2O版權歸屬@東風谷早喵所有。感謝Github@CosineMath對啟動器的後端支持。</string>
+    <string name="menu_10_2">使用GPLv3協議開源，具體的請點擊下面的鏈接查看。</string>
+    <string name="menu_10_3">貢獻人員:\nGitHub@CosineMath(後端支持)\nGitHub@Fire(技術支持)\nGitHub@JiuXia2025(圖標設計)\nBilibili@异星之尘(後端提供)</string>
+    <string name="menu_10_4">版權：\n啟動器本體：酷安@東風谷早喵 (GitHub@NaCln4c1)\n後端：貼吧@郑王柴宗训 (GitHub@CosineMath)\nMinecraft-Java版：\n©Microsoft Corporation (1975-2021)/©Mojang Studios (2009-2021)</string>
+    <string name="menu_10_5">開源地址</string>
+    <string name="menu_10_6">引用開源項目：\n    BoatApp\n    LfilePicker</string>
+    <string name="m102">開放源代碼</string>
+    <string name="m103">貢獻人員</string>
+    <string name="m104">版權說明</string>
+    <string name="m105">友情鏈接 (McinaBox)</string>
+    <string name="m106">所使用的开源项目</string>
+    <string name="m107">另外的Android Minecraft Java啟動器。</string>
+    <string name="m108">訪問</string>
+    
+    <string name="menu_11">看日誌</string>
+    
+    <string name="menu_121">加群聊天！</string>
+    <!--
+    <string name="dn">下载文件</string>
+    <string name="dn2">运行库</string>
+    <string name="dn3">从官方列表下载Minecraft</string>
+    <string name="dn4">从互联网上下载Minecraft</string>
+    <string name="dn5">从本地文件安装Minecraft</string>
+    <string name="dn6">提示：在此页面安装的游戏均是基于目前所选择的目录内安装，如果想安装在其他目录中，请前往整合包管理页面添加一个空白目录！</string>
+    
+    <string name="dn7">从互联网上下载运行库</string>
+    <string name="dn8">从本地文件安装运行库</string>
+    -->
+    <string name="login_title">在線模式</string>
+    <string name="login_account">Mojang賬號(郵件地址)</string>
+    <string name="login_password">密碼</string>
+    <string name="login_checkbox">記住密碼</string>
+    <string name="login">登錄</string>
+    <string name="login_language">繁體中文(中國-台灣省)</string>
+    <string name="login_offline">離線模式</string>
+    <string name="login_new">添加賬號</string>
+    <string name="login_welcome">歡迎玩家</string>
+    <string name="login_as">進入啟動器，作為玩家</string>
+    <string name="login_ing">登錄中...</string>
+    <string name="login_retry">請再試一次</string>
+    <!--
+    <string name="login_env">[简体中文:注意，自2021年起所有Mojang账号将会陆续迁移至Microsoft账号，在此页面将无法使用新的微软账号或旧的Mojang账号进行登录。后续该启动器将会提供Microsoft账号登录功能。]</string>
+    -->
+    <string name="login_logout">退出登錄</string>
+    <string name="install">安裝</string>
+    <string name="c1">跳躍居左</string>
+    <string name="c2">離開app頁面不自動暫停遊戲</string>
+    <string name="delrun">刪除Java</string>
+</resources>
