@@ -28,7 +28,7 @@ import java.util.List;
 public class ExecuteActivity extends AppCompatActivity implements View.OnClickListener {
     
     public Button excuteButton;
-    public EditText inputText;
+    public TextView inputText;
     public TextView outputText;
     
     @Override
@@ -46,7 +46,7 @@ public class ExecuteActivity extends AppCompatActivity implements View.OnClickLi
 				}
 			});
 		this.excuteButton=(Button)findViewById(R.id.launcher_excute_button);
-		this.inputText=(EditText)findViewById(R.id.launcher_input_text);
+		this.inputText=(TextView)findViewById(R.id.launcher_input_text);
 		this.outputText=(TextView)findViewById(R.id.launcher_output_text);
 		
 		this.excuteButton.setOnClickListener(this);
@@ -169,7 +169,7 @@ public class ExecuteActivity extends AppCompatActivity implements View.OnClickLi
 	    final EditText editText = new EditText(ExecuteActivity.this);
                 AlertDialog.Builder dialog = new AlertDialog.Builder(ExecuteActivity.this);
                 dialog.setTitle("Directory of runtime");
-                dialog.setView(editText);
+		        dialog.setView(editText, 50, 0, 50, 0);
                 dialog.setCancelable(true);
                 dialog.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
