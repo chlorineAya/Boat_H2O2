@@ -7,6 +7,7 @@ import java.util.List;
 
 import android.app.Activity;
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -23,6 +24,10 @@ import android.widget.PopupWindow;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.util.DisplayMetrics;
 
 import com.koishi.launcher.h2o2.R;
 import com.koishi.launcher.h2o2.tools.DBHelper;
@@ -45,23 +50,53 @@ import android.graphics.drawable.ShapeDrawable;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import com.koishi.launcher.h2o2.MainActivity;
+import android.widget.CompoundButton;
+import android.support.v7.widget.CardView;
+import android.net.Uri;
+import android.widget.PopupMenu;
+import java.util.Locale;
 
 public class LoginActivity extends Activity implements OnClickListener {
 	private EditText mUserName;
 	private EditText mPassword,信息,信息2,信息0;
 	private ImageView img1;
-	private Button mLoginButton,offline,newacc;
+	private Button mLoginButton,offline,newacc,ls;
 	private ImageButton mDropDown;
 	private DBHelper dbHelper;
-	private CheckBox mCheckBox;
+	private CheckBox mCheckBox,info;
 	private PopupWindow popView;
 	private TextView logt;
 	private MyAdapter dropDownAdapter;
 	
+	private PopupMenu popupMenu;
+	
+	private CardView userinfo,inputcv;
+
 	private ProgressBar pb;
 
 	private boolean run = false;
     private final Handler handler = new Handler();
+	
+	@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_login, menu);
+        return true;
+    }
+
+	@Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+		    case R.id.register:
+                Intent intent = new Intent();
+				intent.setData(Uri.parse("https://www.minecraft.net/zh-hans/store/minecraft-java-edition/buy"));//Url
+				intent.setAction(Intent.ACTION_VIEW);
+				this.startActivity(intent);
+		        break;
+			default:
+				break;
+		}
+		return true;
+	}
 
 
 	@Override
@@ -122,25 +157,82 @@ public class LoginActivity extends Activity implements OnClickListener {
 		super.onPause();
 
 	}
+	/*
+	public void setLanguage(View v){
+	    popupMenu.show();
+	}
+	
+	public void switchEnglish() {
+		switchLanguage(Locale.ENGLISH);
+	}
 
+	public void switchChinese() {
+		switchLanguage(Locale.CHINESE);
+	}
+	
+	public void switchJapanese() {
+		switchLanguage(Locale.JAPAN);
+	}
+
+	private void switchLanguage(Locale locale) {
+		DisplayMetrics metrics = getResources().getDisplayMetrics();
+        Configuration configuration = getResources().getConfiguration();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            configuration.setLocale(locale);
+        } else {
+            configuration.locale = locale;
+        }
+        getResources().updateConfiguration(configuration, metrics);
+        //重新启动Activity
+        Intent intent = new Intent(this, LoginActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+	}
+	*/
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);		
 		setContentView(R.layout.activity_login);
-        
+
 		run = true;
         handler.postDelayed(task, 1000);
-        
+
         信息 = (EditText)findViewById(R.id.msg);
 		信息2 = (EditText)findViewById(R.id.msg2);
 		信息0 = (EditText)findViewById(R.id.msg0);
-		
+
 		pb = (ProgressBar)findViewById(R.id.pb);
-        
+
         logt = (TextView)findViewById(R.id.login_text);
 		img1 = (ImageView)findViewById(R.id.img1);
-                
+		
+		//ls = (Button)findViewById(R.id.sl);
+		/*
+	    popupMenu = new PopupMenu(this, ls);//button是popupMenu的宿主，也可以是其他任意view
+        popupMenu.getMenuInflater().inflate(R.menu.menu_language, popupMenu.getMenu());
+
+        popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                switch (item.getItemId()) {
+		    case R.id.l_zhcn:
+                switchChinese();
+		        break;
+		    case R.id.l_enus:
+		        switchEnglish();
+		        break;
+		    case R.id.l_ja:
+		        switchJapanese();
+		        break;
+			default:
+				break;
+		}
+		return true;
+            }
+        });
+        */
+        
 
 		信息2.addTextChangedListener(new TextWatcher(){
                 @Override
@@ -196,16 +288,33 @@ public class LoginActivity extends Activity implements OnClickListener {
 
             });
         信息0.setText(tok());
+		
+		inputcv = (CardView)findViewById(R.id.inputcv);
 
 		this.offline = (Button)findViewById(R.id.offline);
 
 		offline.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View v) {
-					Intent intent3 = new Intent(LoginActivity.this, MainActivity.class);
-					startActivity(intent3);// TODO: Implement this method
+					if (dbHelper.queryAllUserName().length > 0) {
+						String havefunc = "havefunc";
+						Intent intent3 = new Intent(LoginActivity.this, MainActivity.class);
+						intent3.putExtra("noplay",havefunc);
+						startActivity(intent3);// TODO: Implement this method
+						LoginActivity.this.finish();
+						}else{
+							//信息0.setText("0000");
+							//String nofunc = "nofunc";
+							String nofunc = "havefunc";
+							Intent intent3 = new Intent(LoginActivity.this, MainActivity.class);
+							intent3.putExtra("noplay",nofunc);
+							startActivity(intent3);// TODO: Implement this method
+							LoginActivity.this.finish();
+						}
+					
 				}
 			});
+		
 		this.newacc = (Button)findViewById(R.id.newacc);
 		newacc.setOnClickListener(new View.OnClickListener() {
 				@Override
@@ -218,21 +327,46 @@ public class LoginActivity extends Activity implements OnClickListener {
 					mPassword.setVisibility(View.VISIBLE);
 					mCheckBox.setVisibility(View.VISIBLE);
 					mDropDown.setVisibility(View.VISIBLE);
+					inputcv.setVisibility(View.VISIBLE);
+					info.setVisibility(View.VISIBLE);
 					img1.setVisibility(View.GONE);
 					logt.setVisibility(View.GONE);
 				}
 			});
+			
+		info = (CheckBox)findViewById(R.id.infocb);
+		info.setChecked(false);
+		info.setEnabled(false);
+		info.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){ 
+				@Override 
+				public void onCheckedChanged(CompoundButton buttonView, 
+											 boolean isChecked) { 
+					// TODO Auto-generated method stub 
+					if(isChecked){ 
+						userinfo.setVisibility(View.VISIBLE);
+						信息2.setText(uid());
+						信息.setText(uid());
+						信息0.setText(uid());
+					}else{ 
+						userinfo.setVisibility(View.GONE);
+					} 
+				} 
+			}); 
+			
 		initWidget();
 		
+		
+
 		final String id = 信息.getText().toString();
-	        if (!id.equals("")) {
-	        }
-	        else{
+		if (!id.equals("")) {
+		} else {
 	        信息.setText("Player");
-	        }
-		logt.setText(getResources().getString(R.string.login_welcome)+"\n"+信息.getText().toString());
-		
-		
+		}
+		logt.setText(getResources().getString(R.string.login_welcome) + "\n" + 信息.getText().toString());
+
+        
+			
+		userinfo = (CardView)findViewById(R.id.userinfo);
 
 
 	}
@@ -247,9 +381,17 @@ public class LoginActivity extends Activity implements OnClickListener {
             }
         }
     };
+	
+	public void hideinfo(View view){
+		userinfo.setVisibility(View.GONE);
+		info.setChecked(false);
+	}
 
 	private void initWidget() {
 		dbHelper = new DBHelper(this);
+		if (dbHelper.queryAllUserName().length <= 0) {
+			//offline.setText("Demo");
+		}
 		mUserName = (EditText) findViewById(R.id.username);
 		mPassword = (EditText) findViewById(R.id.password);
 		mLoginButton = (Button) findViewById(R.id.login);
@@ -265,6 +407,8 @@ public class LoginActivity extends Activity implements OnClickListener {
 			mPassword.setVisibility(View.GONE);
 			mCheckBox.setVisibility(View.GONE);
 			mDropDown.setVisibility(View.GONE);
+			inputcv.setVisibility(View.GONE);
+			info.setVisibility(View.GONE);
 			img1.setVisibility(View.VISIBLE);
 			logt.setVisibility(View.VISIBLE);
 		} else {
@@ -274,6 +418,8 @@ public class LoginActivity extends Activity implements OnClickListener {
 			mPassword.setVisibility(View.VISIBLE);
 			mCheckBox.setVisibility(View.VISIBLE);
 			mDropDown.setVisibility(View.VISIBLE);
+			inputcv.setVisibility(View.VISIBLE);
+			info.setVisibility(View.VISIBLE);
 			img1.setVisibility(View.GONE);
 			logt.setVisibility(View.GONE);
 		}
@@ -318,36 +464,36 @@ public class LoginActivity extends Activity implements OnClickListener {
 	}
 
 	String[] 用户信息;
-	
-	public void doLogin(){
-	final String userName = mUserName.getText().toString();
-			final String password = mPassword.getText().toString();
-	        if (!userName.equals("") && !password.equals("")) {
-				Toast.makeText(LoginActivity.this, "Please wait...", 1000).show();
-				mLoginButton.setEnabled(false);
-				pb.setVisibility(View.VISIBLE);
-				mLoginButton.getBackground().setAlpha(90);
-				//登录操作为耗时操作，必须放到线程中执行
-				new Thread(new Runnable(){
-						@Override
-						public void run() {
-                            if (!LoginTask.checkif(LoginTask.get("auth_access_token"))) {
-                                //token不可用
-                                //调用LoginTask
-                                用户信息 = LoginTask.login(userName, password);
-                                登录信息检测.sendEmptyMessage(0);
-                            } else {
-                                //token可用，无需调用登录
-                                登录信息检测.sendEmptyMessage(1);
-                            }
 
-
+	public void doLogin() {
+		final String userName = mUserName.getText().toString();
+		final String password = mPassword.getText().toString();
+		if (!userName.equals("") && !password.equals("")) {
+			Toast.makeText(LoginActivity.this, "Please wait...", 1000).show();
+			mLoginButton.setEnabled(false);
+			pb.setVisibility(View.VISIBLE);
+			mLoginButton.getBackground().setAlpha(90);
+			//登录操作为耗时操作，必须放到线程中执行
+			new Thread(new Runnable(){
+					@Override
+					public void run() {
+						if (!LoginTask.checkif(LoginTask.get("auth_access_token"))) {
+							//token不可用
+							//调用LoginTask
+							用户信息 = LoginTask.login(userName, password);
+							登录信息检测.sendEmptyMessage(0);
+						} else {
+							//token可用，无需调用登录
+							登录信息检测.sendEmptyMessage(1);
 						}
-					}).start();
-			} else {
-				Toast.makeText(LoginActivity.this, "None", 1000).show();
-			}
-	
+
+
+					}
+				}).start();
+		} else {
+			Toast.makeText(LoginActivity.this, "None", 1000).show();
+		}
+
 	}
 
 	@Override
@@ -364,7 +510,6 @@ public class LoginActivity extends Activity implements OnClickListener {
 					popView.dismiss();
 				}
 			} else {
-				// 锟斤拷锟斤拷锟斤拷丫锟斤拷锟铰硷拷锟斤拷撕锟�
 				if (dbHelper.queryAllUserName().length > 0) {
 					initPopView(dbHelper.queryAllUserName());
 					if (!popView.isShowing()) {
@@ -575,6 +720,11 @@ public class LoginActivity extends Activity implements OnClickListener {
 		}
 	}
 
+	@Override
+	public void onBackPressed() {
+
+	}
+
 	Handler 登录信息检测=new Handler(){
         @Override
         public void handleMessage(Message msg) {
@@ -616,8 +766,10 @@ public class LoginActivity extends Activity implements OnClickListener {
                     信息2.setText(用户信息[2]);
                     信息0.setText(用户信息[0]);
 					pb.setVisibility(View.GONE);
+					String havefunc = "havefunc";
                     Toast.makeText(LoginActivity.this, "Done", 1000).show();
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+					intent.putExtra("noplay",havefunc);
 		            startActivity(intent);// TODO: Implement this method
 		            finish();
 
@@ -634,7 +786,9 @@ public class LoginActivity extends Activity implements OnClickListener {
 					dbHelper.insertOrUpdate(resultAc, "", 0);
 				}
                 Toast.makeText(LoginActivity.this, "Done", 1000).show();
+				String havefunc = "havefunc";
                 Intent intent2 = new Intent(LoginActivity.this, MainActivity.class);
+				intent2.putExtra("noplay",havefunc);
 		        startActivity(intent2);// TODO: Implement this method
 
             }
@@ -649,7 +803,7 @@ public class LoginActivity extends Activity implements OnClickListener {
 	@Override
 	protected void onStop() {
 		super.onStop();
-		
+
 	}
 
 }
