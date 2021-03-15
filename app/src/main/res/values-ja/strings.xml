@@ -16,6 +16,9 @@
     <string name="menu_t3">このソフトウェア</string>
     
     <string name="menu_1">ホームページ</string>
+    
+    <string name="mk">キーボード、マウスモード</string>
+    <string name="mk2">リターンキーの出力をマウスの右ボタンに変更します</string>
       
     <string name="menu_2">テスト</string>
     <string name="menu_2_hint">ファイルパス(tar.xz)</string>
@@ -64,25 +67,30 @@
     <string name="m104">著作権</string>
     <string name="m105">友情のリンク (McinaBox)</string>
     <string name="m106">使用したオープンソースプロジェクト</string>
-    <string name="m107">このソフトウェアはGitHub@AOF-Teamによって作られています，GitHub@longjunyu2、GitHub@CosineMath、Lambda、風 </string>
+    <string name="m107">このソフトウェアはGitHub@AOF-Teamによって作られています，GitHub@longjunyu2、GitHub@CosineMath、GitHub@SnowNF、GitHub@by-scott </string>
     <string name="m108">Go</string>
+    
+    <string name="menu_121">グループ</string>
     
     <string name="login_title">オンライン</string>
     <string name="login_account">Mojang account (Email)</string>
     <string name="login_password">パスワード</string>
     <string name="login_checkbox">パスワードを覚える</string>
     <string name="login">ログイン</string>
+    <string name="login_language">日本語</string>
     <string name="login_offline">オフライン</string>
     <string name="login_new">アカウントを追加する</string>
     <string name="login_welcome">こんにちはプレーヤー</string>
     <string name="login_as">プレイヤーとして入る</string>
     <string name="login_ing">ログイン...</string>
     <string name="login_retry">もう一度お試しください</string>
+    <!--
     <string name="login_env">[日本語 注：2021年に、すべてのMojangアカウントが NEW Microsoft/ OLD Mojangアカウントに移行されます。 その際、移行したアカウントでこのページにログインすることはできません。 このソフトウェアは、できるだけ早くマイクロソフトにサポートを追加します。]</string>
-    
+    -->
     <string name="down">ダウンロード(ベータ)</string>
     <string name="downtip">マインクラフトファイル，このソフトウェアを誤ってオフにした場合(ダウンロードするとき)，クリックDelete，もう一度ダウンロード。</string>
     
- 
+    <string name="c1">Change jump to left</string>
+    <string name="c2">Don not use ESC when leave the app</string>
     
 </resources>
