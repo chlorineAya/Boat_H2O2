@@ -18,6 +18,9 @@ import java.util.zip.ZipEntry;
 import java.io.FileOutputStream;
 import android.text.TextUtils;
 import com.koishi.launcher.h2o2.func.LoginActivity;
+import java.io.FileWriter;
+import android.widget.Toast;
+import com.koishi.launcher.h2o2.func.InitialActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -26,11 +29,13 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 		
         setContentView(R.layout.activity_splash);
+        setcfg();
         /*activity继承AppCompatActivity使用getSupportActionBar().hide()来隐藏ActionBar，且
 		 * 必须写在 setContentView后面，如果在styles.xml中设置了NoTitleBar就不用写。*/
         /*getSupportActionBar().hide();*/
 		boolean tmp = fileIsExists("/sdcard/games/com.koishi.launcher/h2o2/gamedir");
 		boolean tmp2 = fileIsExists("/sdcard/games/com.koishi.launcher/h2o2/config.txt");
+		
         if (tmp && tmp2){
 			start();
 		}else{
@@ -46,13 +51,20 @@ public class SplashActivity extends AppCompatActivity {
     }
 
 	public void start(){
-		
 		new Handler().postDelayed(new Runnable() {
 				@Override
 				public void run() {
-					Intent intent1=new Intent(SplashActivity.this,LoginActivity.class);
-					startActivity(intent1);
-					SplashActivity.this.finish();
+				    boolean tmp3 = fileIsExists("/data/data/com.koishi.launcher.h2o2/app_runtime/libopenal.so.1");
+				    if (tmp3){
+					    Intent intent1=new Intent(SplashActivity.this,LoginActivity.class);
+					    startActivity(intent1);
+					    SplashActivity.this.finish();
+					}else{
+					    Intent intent1=new Intent(SplashActivity.this,InitialActivity.class);
+					    startActivity(intent1);
+					    SplashActivity.this.finish();
+					}
+					
 				}
 			},3000);//3000表示延迟的毫秒数。
 	}
@@ -94,6 +106,23 @@ public class SplashActivity extends AppCompatActivity {
         }
         zipInputStream.close();
     }
+    
+    private void setcfg(){
+        boolean tmp3 = fileIsExists("/storage/emulated/0/games/com.koishi.launcher/h2o2/h2ocfg.json");
+        if(!tmp3){
+            try {
+                FileWriter fr=new FileWriter("/storage/emulated/0/games/com.koishi.launcher/h2o2/h2ocfg.json");
+                fr.write("{\"mouseMode\":\"false\",\"backToRightClick\":\"false\",\"jumpToLeft\":\"false\",\"email\":\"\",\"password\":\"\",\"dontEsc\":\"false\"}");
+                fr.close();
+                System.out.println("success");
+            } catch (IOException e) 
+            {
+                System.out.println(e);
+                Toast.makeText(SplashActivity.this, e.toString(), Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+    
 	private File renameFile(String oldPath, String newPath) {
         if (TextUtils.isEmpty(oldPath)) {
             return null;
