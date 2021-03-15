@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/mainRelativeLayout1">
+
+	<TextureView
+		android:id="@+id/main_surface2"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"/>
+
+	<TextView
+		android:textSize="10sp"
+		android:textColor="#FFFFFFFF"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="0dp"
+		android:alpha="0.5"
+		android:text="Boat_H2O2_2.1.93(Beta)"
+		android:layout_alignParentBottom="true"/>
+
+	<Button
+		android:id="@+id/touch_pad22"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginLeft="0dp"
+		android:layout_marginBottom="0dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:alpha="0.0"/>
+
+	<ImageView
+		android:layout_height="16dp"
+		android:layout_width="16dp"
+		android:src="@drawable/cursor"
+		android:id="@+id/mouse_cursor2"
+		android:layout_margin="48dp"
+		android:visibility="gone"
+		android:alpha="0"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Stand By"
+		android:id="@+id/mainTextView1"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="50dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Stand By"
+		android:layout_below="@id/mainTextView1"
+		android:layout_marginLeft="5dp"
+		android:id="@+id/mainTextView2"/>
+
+	<android.support.v7.widget.CardView
+		android:foreground="?android:attr/selectableItemBackground"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:cardElevation="3dp"
+		app:cardBackgroundColor="#00ffffff"
+		android:alpha="0.75"
+		android:layout_alignParentRight="true">
+
+		<EditText
+			android:layout_width="100dp"
+			android:ems="10"
+			android:text="&gt;"
+			android:layout_height="50dp"
+			android:layout_alignParentRight="true"
+			android:background="#1A000000"
+			android:id="@+id/insc"/>
+
+	</android.support.v7.widget.CardView>
+
+</RelativeLayout>
+
