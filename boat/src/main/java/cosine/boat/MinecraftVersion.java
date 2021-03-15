@@ -324,7 +324,7 @@ public class MinecraftVersion
 					String value = "";
 
 					if (key != null && key.equals("version_name")){
-						value = "Boat_H2O2-2.1.3";
+						value = "Boat_H2O2-2.1.93";
 					}
 					else if (key != null && key.equals("assets_index_name")){
 
