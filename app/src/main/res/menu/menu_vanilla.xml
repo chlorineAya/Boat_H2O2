@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cosine.boat.LauncherActivity">
+        
+    <item
+        android:id="@+id/download_ref"
+        android:icon="@drawable/refresh"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="90"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+    
+</menu>

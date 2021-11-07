@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_undo"
+        android:orderInCategory="100"
+        android:title="@string/terminal_undo"
+        android:icon="@drawable/ic_undo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_redo"
+        android:orderInCategory="100"
+        android:title="@string/terminal_redo"
+        android:icon="@drawable/ic_redo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_del_all"
+        android:orderInCategory="100"
+        android:title="@string/terminal_clear_history"
+        android:icon="@drawable/ic_del_all"
+        app:showAsAction="ifRoom"/>
+</menu>

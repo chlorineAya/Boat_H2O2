@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="welcome_start"
+        app:title="@string/welcome_start"
+        app:icon="@drawable/ic_arrow_right_black"/>
+
+    <PreferenceCategory app:title="@string/welcome_perm_title">
+
+        <Preference
+            app:key="welcome_perm"
+            app:title="@string/welcome_perm"
+            app:icon="@drawable/ic_main_msg_app"/>
+
+        <Preference
+            app:key="welcome_give"
+            app:title="@string/welcome_give"
+            app:icon="@drawable/ic_build"/>
+
+        <Preference
+            app:key="welcome_help"
+            app:title="@string/welcome_help"
+            app:icon="@drawable/ic_main_help"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

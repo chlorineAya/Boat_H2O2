@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/mainRelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextureView
+            android:id="@+id/mouse_surface"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.5"
+            android:text="@string/app_version"
+            android:textColor="#FFFFFFFF"
+            android:textSize="10sp"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/controller_view"
+            android:orientation="vertical"/>
+
+    <Button
+            android:id="@+id/touch_pad22"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.0"/>
+
+
+    <ImageView
+            android:id="@+id/mouse_cursor2"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/cursor5"/>
+
+    <TextView
+            android:id="@+id/mainTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:text="Stand By"/>
+
+    <TextView
+            android:id="@+id/mainTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mainTextView1"
+            android:layout_marginLeft="5dp"
+            android:text="Stand By"/>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:alpha="0.75"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#00ffffff"
+            app:cardElevation="3dp">
+
+        <EditText
+                android:id="@+id/insc"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:background="#1A000000"
+                android:ems="10"
+                android:text="&gt;"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/home_open_info"
+        android:icon="@drawable/ic_my_device"
+        android:title="@string/device_info" />
+
+    <item
+        android:id="@+id/home_open_fix"
+        android:icon="@drawable/ic_launcher_file_checker"
+        android:title="@string/launcher_check_file"/>
+
+    <item
+        android:id="@+id/home_open_help"
+        android:icon="@drawable/ic_main_help"
+        android:title="@string/launcher_main_help" />
+
+</menu>

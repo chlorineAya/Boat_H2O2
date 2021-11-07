@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbar_background">#FFFFFFFF</color>
+    <color name="blue_light_primary">#FF83B2FF</color>
+    <color name="blue_light_primaryDark">#FF83A2FF</color>
+
+    <color name="colorPrimary">#FF6E89B6</color>
+    <color name="colorPrimaryDark">#FF6E89B6</color>
+    <color name="colorOnPrimary">#FFCCE1FF</color>
+
+    <color name="empty">#00000000</color>
+
+    <color name="blue_base_primary">#FF83B2FF</color>
+
+    <color name="red_light_primary">#FFFF2300</color>
+    <color name="red_light_primaryDark">#FFFF2300</color>
+    <color name="orange_light_primary">#FFFF7F00</color>
+    <color name="orange_light_primaryDark">#FFFF7F00</color>
+    <color name="yellow_light_primary">#FFFFFF00</color>
+    <color name="yellow_light_primaryDark">#FFFFFF00</color>
+    <color name="green_light_primary">#FFCFE9CC</color>
+    <color name="green_light_primaryDark">#FFCFE9CC</color>
+    <color name="cyan_light_primary">#FF70DBDB</color>
+    <color name="cyan_light_primaryDark">#FF70DBDB</color>
+    <color name="purple_light_primary">#FF9932CD</color>
+    <color name="purple_light_primaryDark">#FF9932CD</color>
+    <color name="pink_light_primary">#FFFB7299</color>
+    <color name="pink_light_primaryDark">#FFFB7299</color>
+    <color name="brown_light_primary">#FF97694F</color>
+    <color name="brown_light_primaryDark">#FF97694F</color>
+
+    <color name="green_light_primary_toolbar">#FFCFE9CC</color>
+
+    <color name="theme_status_bar_color">#FF323232</color>
+    <color name="theme_status_bar_color_empty">#FFFFFFFF</color>
+    <color name="theme_window_color">#FFFFFFFF</color>
+    <color name="theme_card_color">#FFFFFFFF</color>
+
+    <color name="nav_color">#FFFFFFFF</color>
+
+    <color name="nav_color_bg">#AAFFFFFF</color>
+
+    <color name="green_light">#FF4CAF50</color>
+    <color name="red_light">#FFFF5252</color>
+    <color name="gray_light">#FF868686</color>
+    <color name="pink_light">#FFCD72CD</color>
+
+    <color name="appBlack_35">#35000000</color>
+    <color name="appWhite_35">#35FFFFFF</color>
+    <color name="appBlack_00">#00444444</color>
+    <color name="appBlack_ff">#AA000000</color>
+    <color name="appBlack_ff_l">#AA000000</color>
+    <color name="appBlack_70">#70000000</color>
+    <color name="appWhite_70">#AAFFFFFF</color>
+    <color name="appWhite_ff">#FFFFFFFF</color>
+    <color name="appWhite_ff_l">#FFFFFFFF</color>
+    <color name="appTint">#AA000000</color>
+    <color name="bgTint">@color/colorPrimary</color>
+
+    <color name="red_light_primary_bg">#25FF2300</color>
+    <color name="red_light_primaryDark_bg">#25FF2300</color>
+    <color name="orange_light_primary_bg">#25FF7F00</color>
+    <color name="orange_light_primaryDark_bg">#25FF7F00</color>
+    <color name="yellow_light_primary_bg">#25FFFF00</color>
+    <color name="yellow_light_primaryDark_bg">#25FFFF00</color>
+    <color name="green_light_primary_bg">#254CAF50</color>
+    <color name="green_light_primaryDark_bg">#254CAF50</color>
+    <color name="blue_light_primary_bg">#2583B2FF</color>
+    <color name="blue_light_primaryDark_bg">#2583A2FF</color>
+    <color name="cyan_light_primary_bg">#2570DBDB</color>
+    <color name="cyan_light_primaryDark_bg">#2570DBDB</color>
+    <color name="purple_light_primary_bg">#259932CD</color>
+    <color name="purple_light_primaryDark_bg">#259932CD</color>
+    <color name="pink_light_primary_bg">#25FB7299</color>
+    <color name="pink_light_primaryDark_bg">#25FB7299</color>
+    <color name="brown_light_primary_bg">#2597694F</color>
+    <color name="brown_light_primaryDark_bg">#2597694F</color>
+
+    <color name="material_blue">#FFE4F0FF</color>
+    <color name="material_blue_dark">#FFCDE3FA</color>
+    <color name="material_blue_btn">#FFE4F0FF</color>
+    <color name="material_blue_light">#FFDEEEFF</color>
+
+    <color name="material_green_light">#FF32CD32</color>
+    <color name="material_orange_light">#FFEBC79E</color>
+    <color name="material_red_light">#FFFF9899</color>
+    <color name="material_purple_light">#FFDB70DB</color>
+    <color name="material_pink_light">#FFEAADEA</color>
+
+    <color name="material_background">#FFFAF9F7</color>
+    <color name="material_card_background">#FFE9ECF1</color>
+
+    <color name="material_background_only_light">#FFFFFFFF</color>
+    <color name="app_green_normal">#FF06A869</color>
+    <color name="app_blue_normal">#FF7093DB</color>
+
+</resources>

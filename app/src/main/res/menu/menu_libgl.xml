@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cosine.boat.LauncherActivity">
+
+	<item
+        android:id="@+id/g4es112"
+        android:title="GL4ES_v1.1.2"/>
+
+	<item
+        android:id="@+id/g4es115"
+        android:title="GL4ES_v1.1.5"/>
+
+    <item
+        android:id="@+id/zink"
+        android:enabled="false"
+        android:title="Zink"/>
+
+	<item
+		android:id="@+id/virgl"
+		android:title="VirGL_v0.9.1"/>
+
+</menu>

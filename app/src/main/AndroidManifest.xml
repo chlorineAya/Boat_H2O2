@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.koishi.launcher.h2o2pro">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name="cosine.boat.BoatApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_h2o2_low_px"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme">
+        <activity
+            android:name=".LogcatActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/log_title"
+            android:theme="@style/AppBaseTheme.NoActionBar"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings"
+            android:theme="@style/AppBaseTheme.NoActionBar.Settings" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ModsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".VersionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".InstructionActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".TerminalActivity"
+            android:label="@string/menu_terminal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="uiMode"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.mistake.revision.VanillaActivity"
+            android:label="Minecraft"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".InitialActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+
+        <service android:name="com.mistake.revision.Download.DownloadService" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="org.koishi.launcher.h2o2pro.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+    </application>
+
+</manifest>

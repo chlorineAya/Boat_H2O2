@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+    <item
+        android:id="@+id/action_theme"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_theme_custom"
+        android:title="@string/menu_theme"
+        app:showAsAction="ifRoom"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/menu_home"
+        app:showAsAction="ifRoom" />
+    -->
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_custom_settings_black"
+        android:title="@string/menu_more"
+        app:showAsAction="ifRoom" />
+</menu>

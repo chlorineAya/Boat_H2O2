@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cosine.boat.LauncherActivity">
+
+    <item
+        android:id="@+id/menu_official"
+        android:title="Official"/>
+
+    <item
+        android:id="@+id/menu_mcbbs"
+        android:title="MCBBS"/>
+
+    <item
+        android:id="@+id/menu_bmclapi"
+        android:title="BMCLAPI"/>
+
+</menu>

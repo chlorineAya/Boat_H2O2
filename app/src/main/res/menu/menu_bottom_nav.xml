@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_home"
+        android:icon="@drawable/ic_btm_home"
+        android:checked="true"
+        android:title="@string/menu_home" />
+
+    <item
+        android:id="@+id/fragment_install"
+        android:icon="@drawable/ic_btm_install"
+        android:title="@string/menu_install"/>
+
+    <item
+        android:id="@+id/fragment_manager"
+        android:icon="@drawable/ic_btm_manager"
+        android:title="@string/menu_manager" />
+
+    <item
+        android:id="@+id/fragment_custom"
+        android:icon="@drawable/ic_btm_custom"
+        android:title="@string/menu_more" />
+
+</menu>

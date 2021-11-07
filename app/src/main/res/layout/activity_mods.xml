@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mods_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/material_card_background"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/material_card_background"
+            app:elevation="0dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/menu_mod" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--
+    <TextView
+        style="@style/TextStyleSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/ic_main_msg_app"
+        android:drawablePadding="15dp"
+        android:text="@string/mods_tip" />
+-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mod_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

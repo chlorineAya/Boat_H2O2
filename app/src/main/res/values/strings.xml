@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--App-->
+    <string name="app_name" translatable="false">Boat_H2O2 Pro</string>
+    <string name="app_version">3.3.13</string>
+    <string name="launcher_play_boat" translatable="false">Play Boat</string>
+    <string name="launcher_play_boardwalk" translatable="false">Play Pojav</string>
+    <string name="launcher_activity_name_setting">Settings</string>
+    <string name="launcher_activity_name_log">View logs</string>
+    <!--Menu-->
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_install" translatable="false">Install</string>
+    <string name="menu_custom" translatable="false">Config</string>
+    <string name="menu_manager" translatable="false">Dir</string>
+    <!--Action bar menu-->
+    <string name="action_settings" translatable="false">Settings(Disabled)</string>
+    <!--Drawer header-->
+    <string name="nav_header_desc" translatable="false">User</string>
+    <string name="nav_header_title" translatable="false">Player</string>
+    <string name="nav_header_subtitle" translatable="false">example@gmail.com</string>
+    <!--Home page-->
+    <string name="launcher_check_file_true">Game install finished.</string>
+    <string name="launcher_check_file_true_tip">Press float button to start.</string>
+    <string name="launcher_check_file_false">Lost game file.</string>
+    <string name="launcher_check_file_false_tip">View the message to check.</string>
+    <string name="launcher_check_file_msg_runtime">Runtime</string>
+    <string name="launcher_check_file_msg_runtime_true">Successfully installed</string>
+    <string name="launcher_check_file_msg_runtime_false">Not installed</string>
+    <string name="launcher_check_file_msg_gamedir">Gamedir</string>
+    <string name="launcher_check_file_msg_gamedir_true">Successfully installed</string>
+    <string name="launcher_check_file_msg_gamedir_false">Not installed</string>
+    <string name="launcher_main_local_install_runtime">Not installed</string>
+    <string name="launcher_check_file_msg_cfg">Config</string>
+    <string name="launcher_check_file_msg_cfg_true">Normal</string>
+    <string name="launcher_check_file_msg_cfg_false">Error</string>
+    <string name="launcher_check_file_msg_ver">Version</string>
+    <string name="launcher_check_file_msg_ver_true">Have version</string>
+    <string name="launcher_check_file_msg_ver_false">No version</string>
+    <string name="launcher_main_online_install_runtime">Download</string>
+    <string name="launcher_main_local_install_gamedir">Install</string>
+    <string name="launcher_main_online_install_gamedir">Download</string>
+    <string name="launcher_main_runtime_tip">The core of running Minecraft Java Edition. Supports play Minecraft 1.6-21w09a. Because uses OpenGL2.1/GL4ES, could not support 21w10a+(OpenGL3.0) and most shader packs(need zink).</string>
+    <string name="launcher_main_gamedir_tip">This version could not use auto install mode, you should unzip gamedir folder to "/storage/emulated/0/games/com.koishi.launcher/h2o2" directory, if not, please create it by yourself. </string>
+    <string name="launcher_main_how_to_use">How to use</string>
+    <string name="launcher_main_how_to_use_tip">Instruction of the launcher.</string>
+    <string name="launcher_check_file">Check file</string>
+    <string name="launcher_check_file_tip">You must make sure that all of the following items are available.</string>
+    <string name="launcher_msg_open">Spread</string>
+    <string name="launcher_msg_close">Close</string>
+    <string name="launcher_main_ready">Get ready version</string>
+    <string name="launcher_main_log">View logs and errors</string>
+    <string name="launcher_main_log_summary">Report problems to me as soon as possible.</string>
+    <string name="launcher_main_device">Info</string>
+    <string name="launcher_main_device_summary">Install information.</string>
+    <string name="launcher_main_reg">Register Minecraft account</string>
+    <string name="launcher_main_reg_summary">Please support genuine.</string>
+    <string name="launcher_main_help">How to use</string>
+    <string name="launcher_main_star">Score App</string>
+    <string name="launcher_main_share">Share app to your friends</string>
+    <string name="launcher_main_none">Coming soon</string>
+    <string name="share_with">Share with...</string>
+    <string name="share_url">Boat_H2O2, a light Minecraft Launcher for Android devices.\nDownload link: https://github.com/NaCln4c1/Boat_H2O2/releases \nTim or QQ Group: 572291176\nDiscord: https://discord.gg/Ktw9sYx879</string>
+    <string name="dialog">Notice</string>
+    <!--Download page-->
+    <string name="launcher_download_runtimeDownload">Download Runtime File</string>
+    <string name="launcher_download_gameDownload">Download Game Pack</string>
+    <string name="launcher_download_runtimeInstall">Install Runtime File From Device</string>
+    <string name="launcher_download_gameInstall">Install Game Pack From Device</string>
+    <string name="launcher_initial_install">Initialing runtime...</string>
+    <!--Setting page-->
+    <!--basic-->
+    <string name="launcher_settings_title_basic">Basic settings</string>
+    <string name="launcher_settings_player_id">Player ID (Offline)</string>
+    <string name="launcher_settings_jvm">Set JVM flags</string>
+    <string name="launcher_settings_mouse_mode">Mouse mode</string>
+    <!--func-->
+    <string name="launcher_settings_title_func">Function settings</string>
+    <string name="launcher_settings_isolate">Isolate version</string>
+    <string name="launcher_settings_isolate_summary">Run game in a single folder</string>
+    <string name="launcher_settings_control">Control pad center key</string>
+    <string name="launcher_settings_control_title">Choose your key</string>
+    <string name="launcher_settings_theme">App theme</string>
+    <string name="launcher_settings_theme_title">Color</string>
+    <string name="launcher_settings_load_gl">Set rendering loader</string>
+    <string name="launcher_settings_load_gl_title">libGL</string>
+    <!--extra-->
+    <string name="launcher_settings_title_extra">Extra settings</string>
+    <string name="launcher_settings_right_click_mode">Set back button as Right-Click mode</string>
+    <string name="launcher_settings_right_click_mode_summary">Some ROMs changed the mouse</string>
+    <string name="launcher_settings_no_esc">Disable pause when leave the app page</string>
+    <!--color-->
+    <string name="launcher_settings_theme_red">Light-Red</string>
+    <string name="launcher_settings_theme_orange">Fruit-Orange</string>
+    <string name="launcher_settings_theme_yellow">Gold-Yellow</string>
+    <string name="launcher_settings_theme_green">Author-Green</string>
+    <string name="launcher_settings_theme_blue">Xperia-Blue</string>
+    <string name="launcher_settings_theme_cyan">Miku-Cyan</string>
+    <string name="launcher_settings_theme_purple">Gay-Purple</string>
+    <string name="launcher_settings_theme_pink">Bili-Pink</string>
+    <string name="launcher_settings_theme_Brown">Coffee-Brown</string>
+
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="nav_title_2">Games</string>
+    <string name="navigation_drawer_open">open_drawer</string>
+    <string name="navigation_drawer_close">close_drawer</string>
+    <string name="nav_header_status">Offilne</string>
+    <string name="nav_header_status_true">Online</string>
+
+    <string name="nav_header_account_mode">Online</string>
+    <string name="launcher_initial_install_check">Checking file...</string>
+    <string name="launcher_initial_install_start">Initialing file...</string>
+
+    <string name="login_title">Login MC Account</string>
+    <string name="login_account">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_checkbox">Remember</string>
+    <string name="login">Login</string>
+    <string name="login_language">English(US)</string>
+    <string name="login_offline">Offline</string>
+    <string name="login_new">Log out</string>
+    <string name="login_welcome">Welcome Player</string>
+    <string name="login_as">Enter the launcher as</string>
+    <string name="login_ing">Waiting...</string>
+    <string name="login_retry">Retry</string>
+    <!--
+    <string name="login_env">[English-US/Default Attention: This year(2021), all the Mojang account will be moved to the new Microsoft account. At that moment, you will could not login your new Microsoft account or old Mojang account in this page. H2O2 will support Microsoft account login as early as possible.]</string>
+    -->
+    <string name="login_logout">Logout</string>
+    <string name="action">Action</string>
+    <string name="resetapp">Fix crash.</string>
+    <string name="resetwarn">Are you sure to reset?</string>
+    <string name="resetcfg">Reset config file</string>
+    <string name="delete">Delete</string>
+
+    <string name="log_refresh">Refresh</string>
+    <string name="log_android">View APP log</string>
+    <string name="log_send">Send</string>
+    <string name="log_tip">This is a log page of Boat APP, if you want to view APP log, press View APP log button. Remember, only you have this log, you can also share it to other people. The best way is send it to the developer, you couldn\'t send log to any stranger ANYWAY!</string>
+    <string name="custom_id">ID</string>
+    <string name="log_tip_app">This is a log page of Launcher, if you want to view Boat log, press refresh button. Remember, only you have this log, you can also share it to other people. The best way is send it to the developer, you couldn\'t send log to any stranger ANYWAY!</string>
+    <string name="custom_jvm">JVM Flags</string>
+    <string name="custom_basic">Basic settings</string>
+    <string name="custom_more">More settings</string>
+    <string name="custom_gl">LibGL</string>
+    <string name="custom_right_click">Right click as SET-Mode</string>
+    <string name="custom_isolate">Isolate version</string>
+    <string name="custom_control">Control pad center key</string>
+    <string name="custom_reset_config">Reset config</string>
+    <string name="custom_reset_runtime">Reset runtime</string>
+    <string name="custom_back">Do not pause when leave game page</string>
+    <string name="log_send_to">Log saved, do you want to send to the developer?(Use email send to lhnn4c12016@hotmail.com)</string>
+    <string name="donate">Donate</string>
+    <string name="donate_tip">Thanks for your playing. If you want to give me more support, would you consider donating?  If possible, choose one of the three links below to donate.  If you donate using AFDIAN or Patreon, you will have a chance to appear on the donation list! </string>
+    <string name="dialog_about">Made by: <a href='http://www.coolapk.com/u/1996447'>Coolapk@Kotiyasanae</a>, View code: <a href='https://github.com/NaCln4c1/Boat_H2O2'>Github Open source link</a></string>
+    <string name="nav_title_3">About</string>
+    <string name="menu_donate" translatable="false">Donate</string>
+    <string name="menu_ver">Versions</string>
+    <string name="menu_res">Game-res</string>
+    <string name="menu_title_game">Games</string>
+    <string name="menu_title_pack">Directory</string>
+    <string name="menu_title_launcher">Launcher</string>
+    <string name="menu_account">Account Manager</string>
+    <string name="menu_title_account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_sw_online">Login-online</string>
+    <string name="login_offline_id">Offline ID</string>
+    <string name="settings">Settings</string>
+    <string name="packs_new">Install new</string>
+    <string name="vers_new">Download</string>
+    <string name="choose_mode">Choose your play mode</string>
+    <string name="choose_mode_touch">Touch</string>
+    <string name="choose_mode_mouse">Mouse and key</string>
+    <string name="choose_mode_cancel">Cancel</string>
+    <string name="menu_more">More</string>
+    <string name="bc_wait">Waiting for the notification...</string>
+    <string name="menu_title_pack_install">Install MC packs</string>
+    <string name="install_title_1">Game</string>
+    <string name="install_title_2">Game packs</string>
+    <string name="install_title_3">Resources</string>
+    <string name="device_info">My device</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="account_before">Welcome</string>
+    <string name="account_after">Press to set</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="app_welcome">Welcome!</string>
+    <string name="welcome_perm">Get storage permission</string>
+    <string name="welcome_skip_hint">Do not show this page.</string>
+    <string name="welcome_start">Start</string>
+    <string name="welcome_help">How to use</string>
+    <string name="welcome_perm_true">You have got the permission!</string>
+    <string name="info_android_ver">Android</string>
+    <string name="info_device">My device</string>
+    <string name="info_cpu">SOC</string>
+    <string name="info_root">Root</string>
+    <string name="info_root_true">True</string>
+    <string name="info_root_false">False</string>
+    <string name="login_done">Done</string>
+    <string name="login_fail">Failed</string>
+
+    <string name="download_release">Release</string>
+    <string name="download_snapshot">Snapshot</string>
+    <string name="download_old_beta">Old</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="refresh">Refresh</string>
+    <string name="launcher_main_check"><![CDATA[Check & Fix game file]]></string>
+    <string name="launcher_main_check_summary">If you could\'t launch, you can check and fix game files. (Only vanilla).</string>
+    <string name="custom_source">Download source</string>
+    <string name="total">Total</string>
+    <string name="download_page_title">Loading files...</string>
+    <string name="exit">Close</string>
+    <string name="download_done">Download finished.</string>
+    <string name="download_tip">If your downloading is getting slow, press refresh button.</string>
+
+    <string name="manager_set_directory">Game directory</string>
+    <string name="manager_set">Set directory</string>
+    <string name="install_done">Install finished.</string>
+    <string name="no_ver">No versions!</string>
+    <string name="manager_reset">Reset directory</string>
+    <string name="terminal_exec">Execute</string>
+    <string name="menu_terminal">Terminal</string>
+    <string name="terminal_text">Input command</string>
+    <string name="terminal_clear">Clear</string>
+    <string name="terminal_undo">Undo</string>
+    <string name="terminal_redo">Redo</string>
+    <string name="terminal_clear_history">Delete history</string>
+    <string name="manager_output_directory">Set output directory</string>
+    <string name="manager_output">Install to directory</string>
+    <string name="inst_open_bili">Open video tutorial</string>
+    <string name="menu_res_more">Resources</string>
+    <string name="tab_launch">Launch</string>
+    <string name="home_view_library">View H2O2 Library</string>
+    <string name="open_source_library">3rd referenced library</string>
+    <string name="thanks">Thanks</string>
+    <string name="menu_theme">Theme</string>
+    <string name="theme_follow_system">Follow system(Suggest to restart app)</string>
+    <string name="restart_to_active">Restart app to active.</string>
+    <string name="app_theme_light">Light</string>
+    <string name="app_theme_dark">Dark</string>
+    <string name="api_3rd">3rd-party API</string>
+    <string name="api_title">API</string>
+    <string name="home_login_start_toast">Please wait...</string>
+    <string name="home_no_account">None</string>
+    <string name="home_no_username">No username!</string>
+    <string name="custom_mcf">Extra Minecraft flags</string>
+    <string name="custom_web_go">Go</string>
+    <string name="custom_web_url">API website url</string>
+    <string name="custom_web_url_title">Type your api website</string>
+    <string name="home_open_api_btn_text">View website of your api</string>
+    <string name="api_action">It\'s the first test of 3rd-party api login, only support 1 username for every account. So you should view your api website to set your username and skin.</string>
+    <string name="home_open_mojang_btn_text">Migrate FAQ</string>
+    <string name="home_open_register_btn_text">Buy Minecraft</string>
+    <string name="api_mojang">Mojang (Support until 2021/12/31)</string>
+    <string name="api_ms">Microsoft</string>
+    <string name="app_welcome_hint">This page means you haven\'t gave the permission of external storage or checkbox below is not checked, you should give it to run app normally or check the checkbox. If you refused, you couldn\'t start launch app that you must manually grant the permission.</string>
+    <string name="welcome_give">Manually grant permissions</string>
+    <string name="http_hint"><![CDATA[http:// & https://]]></string>
+    <string name="ver_input_hint">/storage/emulated/0 or /sdcard or /mnt/sdcard</string>
+    <string name="ver_not_dir">It is not a directory</string>
+    <string name="ver_already_exists">Directory already exists</string>
+    <string name="ver_not_right_dir">It is not a right directory.</string>
+    <string name="ver_add_done">Done</string>
+    <string name="ver_null_dir">This directory was disappointed or null.</string>
+    <string name="ver_if_del">Delete this version?</string>
+    <string name="stop_app">You are using a tablet, please use a phone to start app, stopping launch...</string>
+    <string name="manager_set_directory_name">Directory name</string>
+    <string name="menu_mod">Mods</string>
+    <string name="menu_mod_single">Mods (isolated)</string>
+    <string name="add_file">Add</string>
+    <string name="start_add_mod">导入中，请稍后，导入过程会自动刷新。</string>
+    <string name="mods_tip"> 如果标题栏显示版本隔离，说明您已经开启了版本隔离开关，这时候您可以自由管理该版本的模组。当然，如果想管理所有版本共有的模组文件夹，请关闭此开关。</string>
+    <string name="launcher_main_save_acc">Save account</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="single_ver">Running Minecraft in a single directory.</string>
+    <string name="custom_launcher">Launcher</string>
+    <string name="custom_pause">AFK</string>
+    <string name="log_title">View logs</string>
+    <string name="launcher_check_file_summary">Do not check game if completely installed from home page.(Need restart app)</string>
+
+    <string name="set_launguage_title">Language</string>
+    <string name="set_language_summary">Translate app to your language.</string>
+    <string name="set_language_help_title">Translate</string>
+    <string name="set_language_help_summary">Try to translate app for your language.</string>
+    <string name="set_language_text_summary">The current app lacks multi-language support. For the time being, it only supports following system translation. If you are interested in translation, please download my file and translate it into your language! The language switching function will be turned on at that time.</string>
+    <string name="app">Launcher</string>
+    <string name="theme_summary">Active Android 12 Material You theme.</string>
+    <string name="remove">Remove</string>
+    <string name="spinner_official">Official</string>
+    <string name="spinner_mcbbs">MCBBS</string>
+    <string name="spinner_bmclapi">BMCLAPI</string>
+    <string name="ver_type_release">release</string>
+    <string name="welcome_perm_title">Permission</string>
+
+</resources>

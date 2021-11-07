@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Base color-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbar_background">#00000000</color>
+
+    <color name="colorPrimary">@color/ui_dark_60</color>
+    <color name="colorPrimaryDark">#FF6E89B6</color>
+    <!--Base color-->
+    <color name="blue_light_primary">#FF83B2FF</color>
+    <color name="blue_light_primaryDark">#FF83A2FF</color>
+
+    <color name="blue_base_primary">@color/app_light_10</color>
+
+    <color name="red_light_primary">#FFFF0000</color>
+    <color name="red_light_primaryDark">#FFFF0000</color>
+
+    <color name="green_light_primary_toolbar">#00CFE9CC</color>
+
+    <color name="theme_status_bar_color">#FF212121</color>
+    <color name="theme_status_bar_color_empty">#FF212121</color>
+    <color name="theme_window_color">#FF212121</color>
+    <color name="theme_card_color">#FF323232</color>
+
+    <color name="nav_color">#FF121214</color>
+
+    <color name="nav_color_bg">#AA000000</color>
+
+    <!--View color-->
+    <color name="green_light">#FF32CD32</color>
+    <color name="red_light">#FFFF2300</color>
+    <color name="gray_light">#FF868686</color>
+    <color name="pink_light">#FFCD72CD</color>
+
+    <color name="appBlack_35">#35FFFFFF</color>
+    <color name="appWhite_35">#35000000</color>
+    <color name="appBlack_00">#00444444</color>
+    <color name="appBlack_ff">#FFFFFFFF</color>
+    <color name="appWhite_70">#70000000</color>
+    <color name="appWhite_ff">#AA000000</color>
+    <color name="appWhite_ff_l">#AA000000</color>
+    <color name="appTint">@color/ui_dark_70</color>
+    <color name="bgTint">@color/app_light_10</color>
+
+    <color name="material_blue">#FF464845</color>
+    <color name="material_blue_dark">#FF36383A</color>
+    <color name="material_blue_light">#FF36383A</color>
+    <color name="material_blue_btn">#00E4F0FF</color>
+
+    <color name="material_green_light">#FF36383A</color>
+    <color name="material_orange_light">#FF36383A</color>
+    <color name="material_red_light">#FF36383A</color>
+    <color name="material_purple_light">#FF36383A</color>
+    <color name="material_pink_light">#FF36383A</color>
+
+    <color name="material_background">@color/ui_light_01</color>
+    <color name="material_card_background">@color/app_light_05</color>
+    <color name="app_green_normal">@color/colorPrimary</color>
+    <color name="app_blue_normal">@color/app_light_60</color>
+
+    <color name="ui_bg">@android:color/system_neutral1_900</color>
+    <color name="ui_bg_toolbar">@android:color/system_neutral1_700</color>
+    <color name="ui_bg_surface">@android:color/system_neutral1_800</color> <!-- A12 B2: 700 -->
+    <color name="ui_fg">@android:color/system_neutral1_50</color>
+    <color name="ui_fg_disabled">@android:color/system_neutral1_500</color>
+    <color name="ui_fg_secondary">@android:color/system_neutral2_300</color> <!-- A12 B2: 200 -->
+    <color name="ui_accent">@android:color/system_accent1_200</color> <!-- A12 B2: 100 -->
+
+    <color name="ui_light_00">@android:color/system_neutral1_1000</color>
+    <color name="ui_light_01">@android:color/system_neutral1_900</color>
+    <color name="ui_light_05">@android:color/system_neutral1_800</color>
+    <color name="ui_light_10">@android:color/system_neutral1_700</color>
+    <color name="ui_light_20">@android:color/system_neutral1_600</color>
+    <color name="ui_light_30">@android:color/system_neutral1_500</color>
+    <color name="ui_light_40">@android:color/system_neutral1_400</color>
+    <color name="ui_light_50">@android:color/system_neutral1_300</color>
+    <color name="ui_light_60">@android:color/system_neutral1_200</color>
+    <color name="ui_light_70">@android:color/system_neutral1_100</color>
+    <color name="ui_light_80">@android:color/system_neutral1_50</color>
+    <color name="ui_light_90">@android:color/system_neutral1_10</color>
+    <color name="ui_light_100">@android:color/system_neutral1_0</color>
+
+    <color name="app_light_00">@android:color/system_neutral2_1000</color>
+    <color name="app_light_01">@android:color/system_neutral2_900</color>
+    <color name="app_light_05">@android:color/system_neutral2_800</color>
+    <color name="app_light_10">@android:color/system_neutral2_700</color>
+    <color name="app_light_20">@android:color/system_neutral2_600</color>
+    <color name="app_light_30">@android:color/system_neutral2_500</color>
+    <color name="app_light_40">@android:color/system_neutral2_400</color>
+    <color name="app_light_50">@android:color/system_neutral2_300</color>
+    <color name="app_light_60">@android:color/system_neutral2_200</color>
+    <color name="app_light_70">@android:color/system_neutral2_100</color>
+    <color name="app_light_80">@android:color/system_neutral2_50</color>
+    <color name="app_light_90">@android:color/system_neutral2_10</color>
+    <color name="app_light_100">@android:color/system_neutral2_0</color>
+
+    <color name="ui_dark_00">@android:color/system_accent1_1000</color>
+    <color name="ui_dark_01">@android:color/system_accent1_900</color>
+    <color name="ui_dark_05">@android:color/system_accent1_800</color>
+    <color name="ui_dark_10">@android:color/system_accent1_700</color>
+    <color name="ui_dark_20">@android:color/system_accent1_600</color>
+    <color name="ui_dark_30">@android:color/system_accent1_500</color>
+    <color name="ui_dark_40">@android:color/system_accent1_400</color>
+    <color name="ui_dark_50">@android:color/system_accent1_300</color>
+    <color name="ui_dark_60">@android:color/system_accent1_200</color>
+    <color name="ui_dark_70">@android:color/system_accent1_100</color>
+    <color name="ui_dark_80">@android:color/system_accent1_50</color>
+    <color name="ui_dark_90">@android:color/system_accent1_10</color>
+    <color name="ui_dark_100">@android:color/system_accent1_0</color>
+
+    <color name="app_dark_00">@android:color/system_accent2_1000</color>
+    <color name="app_dark_01">@android:color/system_accent2_900</color>
+    <color name="app_dark_05">@android:color/system_accent2_800</color>
+    <color name="app_dark_10">@android:color/system_accent2_700</color>
+    <color name="app_dark_20">@android:color/system_accent2_600</color>
+    <color name="app_dark_30">@android:color/system_accent2_500</color>
+    <color name="app_dark_40">@android:color/system_accent2_400</color>
+    <color name="app_dark_50">@android:color/system_accent2_300</color>
+    <color name="app_dark_60">@android:color/system_accent2_200</color>
+    <color name="app_dark_70">@android:color/system_accent2_100</color>
+    <color name="app_dark_80">@android:color/system_accent2_50</color>
+    <color name="app_dark_90">@android:color/system_accent2_10</color>
+    <color name="app_dark_100">@android:color/system_accent2_0</color>
+
+    <color name="app2_dark_00">@android:color/system_accent3_1000</color>
+    <color name="app2_dark_01">@android:color/system_accent3_900</color>
+    <color name="app2_dark_05">@android:color/system_accent3_800</color>
+    <color name="app2_dark_10">@android:color/system_accent3_700</color>
+    <color name="app2_dark_20">@android:color/system_accent3_600</color>
+    <color name="app2_dark_30">@android:color/system_accent3_500</color>
+    <color name="app2_dark_40">@android:color/system_accent3_400</color>
+    <color name="app2_dark_50">@android:color/system_accent3_300</color>
+    <color name="app2_dark_60">@android:color/system_accent3_200</color>
+    <color name="app2_dark_70">@android:color/system_accent3_100</color>
+    <color name="app2_dark_80">@android:color/system_accent3_50</color>
+    <color name="app2_dark_90">@android:color/system_accent3_10</color>
+    <color name="app2_dark_100">@android:color/system_accent3_0</color>
+
+
+</resources>

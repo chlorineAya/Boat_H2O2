@@ -1,0 +1,322 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Boat_H2O2_Main" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ui_dark_60</item>
+        <item name="colorPrimaryVariant">@color/ui_dark_60</item>
+        <item name="colorOnPrimary">@color/ui_light_90</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ui_dark_60</item>
+        <item name="colorSecondaryVariant">@color/ui_dark_60</item>
+        <item name="colorOnSecondary">@color/ui_light_90</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/ui_light_05</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/theme_window_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Color Theme: https://material.io/develop/android/theming/color/ -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/material_blue_light</item>
+        <item name="colorSecondaryVariant">@color/material_background</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="android:navigationBarColor">@color/material_background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/material_background</item>
+        <item name="cardForegroundColor">@color/material_blue</item>
+        <item name="android:statusBarColor">@color/material_background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" >
+        <item name="android:background">@color/material_card_background</item>
+        <item name="android:fontFamily">@font/sans</item>
+    </style>
+
+    <!--Custom themes-->
+    <style name="AppBaseTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Color Theme: https://material.io/develop/android/theming/color/ -->
+        <item name="colorPrimary">@color/ui_dark_40</item>
+        <item name="colorPrimaryDark">@color/ui_dark_60</item>
+        <item name="colorAccent">@color/ui_dark_40</item>
+        <item name="colorOnPrimary">@color/ui_light_10</item>
+        <item name="colorSecondary">@color/ui_dark_40</item>
+        <item name="colorSecondaryVariant">@color/ui_dark_40</item>
+        <item name="colorOnSecondary">@color/ui_light_10</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="android:navigationBarColor">@color/material_card_background</item>
+        <item name="android:windowBackground">@color/ui_light_01</item>
+        <item name="cardForegroundColor">@color/ui_light_10</item>
+        <item name="android:statusBarColor">@color/material_background</item>
+        <item name="dialogTheme">@style/pref_dialog</item>
+    </style>
+
+    <style name="AppBaseTheme.NoActionBar.Settings">
+        <item name="android:lineSpacingExtra">1.5sp</item>
+        <item name="dialogTheme">@style/pref_dialog</item>
+    </style>
+
+    <style name="pref_dialog">
+        <item name="android:background">@color/material_card_background</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/material_background</item>
+    </style>
+
+    <style name="AppBaseTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GreenTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Color Theme: https://material.io/develop/android/theming/color/ -->
+        <item name="colorPrimary">@color/green_light</item>
+        <item name="colorPrimaryDark">@color/green_light</item>
+        <item name="colorAccent">@color/green_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_light_primary</item>
+        <item name="colorSecondaryVariant">@color/green_light_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="android:navigationBarColor">@color/material_background</item>
+        <item name="android:windowBackground">@color/material_background</item>
+        <item name="cardForegroundColor">@color/material_blue</item>
+        <item name="android:statusBarColor">@color/material_background</item>
+    </style>
+
+    <style name="GreenTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="OrangeTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Color Theme: https://material.io/develop/android/theming/color/ -->
+        <item name="colorPrimary">@color/orange_light_primary</item>
+        <item name="colorPrimaryDark">@color/orange_light_primary</item>
+        <item name="colorAccent">@color/orange_light_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/material_orange_light</item>
+        <item name="colorSecondaryVariant">@color/material_orange_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="android:navigationBarColor">@color/material_background</item>
+        <item name="android:windowBackground">@color/material_background</item>
+        <item name="cardForegroundColor">@color/material_blue</item>
+        <item name="android:statusBarColor">@color/material_background</item>
+    </style>
+
+    <style name="OrangeTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RedTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Color Theme: https://material.io/develop/android/theming/color/ -->
+        <item name="colorPrimary">@color/red_light_primary</item>
+        <item name="colorPrimaryDark">@color/red_light_primary</item>
+        <item name="colorAccent">@color/red_light_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/material_red_light</item>
+        <item name="colorSecondaryVariant">@color/material_red_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="android:navigationBarColor">@color/material_background</item>
+        <item name="android:windowBackground">@color/material_background</item>
+        <item name="cardForegroundColor">@color/material_blue</item>
+        <item name="android:statusBarColor">@color/material_background</item>
+    </style>
+
+    <style name="RedTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PurpleTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Color Theme: https://material.io/develop/android/theming/color/ -->
+        <item name="colorPrimary">@color/purple_light_primary</item>
+        <item name="colorPrimaryDark">@color/purple_light_primary</item>
+        <item name="colorAccent">@color/purple_light_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/material_purple_light</item>
+        <item name="colorSecondaryVariant">@color/material_purple_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="android:navigationBarColor">@color/material_background</item>
+        <item name="android:windowBackground">@color/material_background</item>
+        <item name="cardForegroundColor">@color/material_blue</item>
+        <item name="android:statusBarColor">@color/material_background</item>
+    </style>
+
+    <style name="PurpleTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PinkTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Color Theme: https://material.io/develop/android/theming/color/ -->
+        <item name="colorPrimary">@color/pink_light_primary</item>
+        <item name="colorPrimaryDark">@color/pink_light_primary</item>
+        <item name="colorAccent">@color/pink_light_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/material_pink_light</item>
+        <item name="colorSecondaryVariant">@color/material_pink_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="android:navigationBarColor">@color/material_background</item>
+        <item name="android:windowBackground">@color/material_background</item>
+        <item name="cardForegroundColor">@color/material_blue</item>
+        <item name="android:statusBarColor">@color/material_background</item>
+    </style>
+
+    <style name="PinkTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.GoogleMaterial.NavigationView" parent="@style/Widget.MaterialComponents.NavigationView">
+        <item name="enforceMaterialTheme">true</item>
+        <item name="itemBackground">@null</item>
+        <item name="itemShapeAppearanceOverlay">@style/MaterialShape</item>
+        <item name="itemShapeInsetBottom">@null</item>
+        <item name="itemShapeInsetEnd">10dp</item>
+        <item name="itemShapeInsetStart">@null</item>
+        <item name="itemShapeInsetTop">@null</item>
+        <item name="itemPadding">30dp</item>
+        <item name="background">@color/material_background</item>
+        <item name="android:fontFamily">@font/sans</item>
+        <item name="android:textSize">16.5sp</item>
+        <item name="android:lineSpacingExtra">1.5sp</item>
+    </style>
+
+    <style name="MaterialShape">
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">23.5dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">23.5dp</item>
+    </style>
+
+    <style name="Widget.GoogleMaterial.BottomNavigationView" parent="@style/Widget.MaterialComponents.BottomNavigationView">
+        <item name="enforceMaterialTheme">true</item>
+        <item name="itemBackground">@null</item>
+        <item name="itemShapeAppearanceOverlay">@style/MaterialBottomShape</item>
+        <item name="background">@color/material_card_background</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">1.5sp</item>
+    </style>
+
+    <style name="MaterialBottomShape">
+        <item name="cornerSizeBottomLeft">30dp</item>
+        <item name="cornerSizeBottomRight">30dp</item>
+        <item name="cornerSizeTopLeft">30dp</item>
+        <item name="cornerSizeTopRight">30dp</item>
+    </style>
+
+    <style name="TextStyleMain">
+        <item name="android:textAppearance">?textAppearanceSubtitle1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">1sp</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+
+    <style name="TextStyleMain_sec">
+        <item name="android:textAppearance">?textAppearanceSubtitle1</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">1sp</item>
+    </style>
+
+    <style name="TextStyleSummary">
+        <item name="android:textAppearance">?textAppearanceBody2</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+    </style>
+
+    <style name="TextStyleSummary_pri">
+        <item name="android:textAppearance">?textAppearanceBody2</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">1sp</item>
+    </style>
+
+    <style name="myActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">36dp</item>
+        <item name="android:minHeight">36dp</item>
+    </style>
+
+    <style name="toolbar_style">
+        <item name="android:textAppearance">?textAppearanceBody2</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:lineSpacingExtra">1sp</item>
+    </style>
+
+    <style name="NProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">50dip</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:progressDrawable">@drawable/progress</item>
+    </style>
+
+    <!--实现BottomSheetDialog圆角效果-->
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomSheetDialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="iconSize">48dp</item>
+    </style>
+
+</resources>

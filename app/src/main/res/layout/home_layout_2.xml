@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_layout_2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true"
+                android:background="@color/material_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/home_sw_online"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:hint="@string/home_sw_online"
+                    android:fontFamily="@font/sans"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/offline_lay"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/home_offline_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/login_offline_id"
+                        android:inputType="text"
+                        android:fontFamily="@font/sans"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <ScrollView
+                    android:id="@+id/home_online_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                        android:id="@+id/activitymainLinearLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateLayoutChanges="true"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+
+                        <com.google.android.material.circularreveal.CircularRevealFrameLayout
+                            android:id="@+id/username_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/name_lay"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/username"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/login_account"
+                                    android:inputType="textEmailAddress"
+                                    android:fontFamily="@font/sans"/>
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <androidx.appcompat.widget.AppCompatImageButton
+                                android:id="@+id/dropdown_button"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="right|center_vertical"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="5dp"
+                                android:alpha="0.5"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/ic_login_drop" />
+
+                        </com.google.android.material.circularreveal.CircularRevealFrameLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/pass_lay"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/login_password"
+                                android:inputType="textPassword"
+                                android:fontFamily="@font/sans"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/api_lay"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/login_api"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textIsSelectable="true"
+                                android:singleLine="true"
+                                android:hint="API"
+                                android:fontFamily="@font/sans"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <ImageView
+                            android:id="@+id/img1"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/ic_h2o2_low_px" />
+
+                        <TextView
+                            android:id="@+id/login_text"
+                            style="@style/TextStyleMain"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:textSize="16sp" />
+
+                        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.checkbox.MaterialCheckBox
+                                android:id="@+id/remember"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="@string/login_checkbox"
+                                android:fontFamily="@font/sans"
+                                android:textAppearance="@android:style/TextAppearance.Small" />
+
+                            <com.google.android.material.checkbox.MaterialCheckBox
+                                android:id="@+id/infocb"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="Info"
+                                android:visibility="gone"
+                                android:textAppearance="@android:style/TextAppearance.Small" />
+
+                            <com.google.android.material.checkbox.MaterialCheckBox
+                                android:id="@+id/xboxcb"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="Xbox"
+                                android:visibility="gone"
+                                android:textAppearance="@android:style/TextAppearance.Small" />
+
+
+                        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp">
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/newacc"
+                                style="@style/Widget.MaterialComponents.Button.TextButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/login_new"
+                                app:icon="@drawable/ic_logout"
+                                android:fontFamily="@font/sans"/>
+
+                        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        <View
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/appBlack_35"/>
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:id="@+id/main_save_acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp">
+
+            <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_save_acc" />
+
+                <com.google.android.material.circularreveal.CircularRevealLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/TextStyleMain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/launcher_main_save_acc"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/sans"/>
+
+                </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp" />
+
+            </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+        <View
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/appBlack_35"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

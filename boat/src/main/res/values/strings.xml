@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Boat_H2O2</string>
+    <string name="app_version">Boat_H2O2 Pro 3.3.13</string>
+    <string name="play">Play</string>
+    <string name="excute">Excute</string>
+    <string name="install">Install</string>
+    <string name="mouse_primary">Pri</string>
+    <string name="mouse_secondary">Sec</string>
+    <string name="control_chat">Chat</string>
+    <string name="control_command">Cmd</string>
+    <string name="control_debug">Debug</string>
+    <string name="control_shift">Sft</string>
+    <string name="control_inventory">Inv</string>
+    <string name="control_thirdperson">3rd</string>
+    <string name="control_jump">■</string>
+    <string name="control_up">▲</string>
+    <string name="control_left">◀</string>
+    <string name="control_right">▶</string>
+    <string name="control_down">▼</string>
+    <string name="esc">Esc</string>
+    <string name="control_keyboard">Keyboard</string>
+
+    <string name="control_bs">Backspace</string>
+    <string name="control_set">Set text into the input box of the game</string>
+    <string name="control_send">Send</string>
+
+    <string name="touch_mode_1">Battle</string>
+    <string name="touch_mode_2">Build</string>
+
+    <string name="fc">Fast Click</string>
+    <string name="app_restart">Restart</string>
+
+    <string name="crash_test">Crash test</string>
+    <string name="crash_hint">App is crashed! Do not worry, app will restart if you press the restart button. You can also view the information from this page.</string>
+    <string name="crash_title">Error</string>
+
+</resources>

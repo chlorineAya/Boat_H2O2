@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        app:key="c_set"
+        app:title="@string/settings"
+        app:icon="@drawable/ic_menu_settings"/>
+
+    <Preference
+        app:key="c_ter"
+        app:title="@string/menu_terminal"
+        app:icon="@drawable/ic_terminal"/>
+
+    <Preference
+        app:key="c_donate"
+        app:title="@string/menu_donate"
+        app:icon="@drawable/ic_menu_donate"/>
+
+    <Preference
+        app:key="c_about"
+        app:title="@string/nav_title_3"
+        app:icon="@drawable/ic_main_msg_app"/>
+
+    <Preference
+        app:key="c_lib"
+        app:title="@string/open_source_library"
+        app:icon="@drawable/ic_custom_more"/>
+
+    <Preference
+        app:key="c_thk"
+        app:title="@string/thanks"
+        app:icon="@drawable/ic_list_ver"/>
+
+</PreferenceScreen>
