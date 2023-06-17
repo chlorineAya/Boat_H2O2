@@ -1,8 +1,9 @@
 package cosine.boat;
 
-
 import android.app.*;
 import android.content.*;
+import android.os.Build;
+import androidx.annotation.RequiresApi;
 
 public class BoatInput{
 	
@@ -39,25 +40,42 @@ public class BoatInput{
 		send(System.nanoTime(), press ? KeyPress : KeyRelease, keyCode, keyChar);
 	}
 
+	public static void setInput(int keyCode, int keyChar, boolean press , boolean Difference){
+		send(System.nanoTime(), Difference ? (press ? ButtonPress : ButtonRelease) : (press ? KeyPress : KeyRelease) , keyCode , Difference ? 0 : keyChar);
+	}
 
 	public static native void send(long time, int type, int p1, int p2);
 
 	// To be called by lwjgl/glfw.
+	@RequiresApi(api = Build.VERSION_CODES.O)
 	public static void setCursorMode(int mode){
 
 		Activity activity = BoatApplication.getCurrentActivity();
 		if (activity instanceof BoatActivity){
 			BoatActivity boatActivity = (BoatActivity)activity;
 			boatActivity.setCursorMode(mode);
+		} else if (activity instanceof BoatActivityMk){
+			BoatActivityMk boatActivityMk = (BoatActivityMk)activity;
+			boatActivityMk.setCursorMode(mode);
+		} else {
+			BoatActivityBase boatActivity = (BoatActivityBase)activity;
+			boatActivity.setCursorMode(mode);
 		}
 
 	}
-	
+
+	@RequiresApi(api = Build.VERSION_CODES.O)
 	public static void setCursorPos(int x, int y){
 
 		Activity activity = BoatApplication.getCurrentActivity();
 		if (activity instanceof BoatActivity){
 			BoatActivity boatActivity = (BoatActivity)activity;
+			boatActivity.setCursorPos(x, y);
+		} else if (activity instanceof  BoatActivityMk){
+			BoatActivityMk boatActivityMk = (BoatActivityMk)activity;
+			boatActivityMk.setCursorPos(x, y);
+		} else {
+			BoatActivityBase boatActivity = (BoatActivityBase)activity;
 			boatActivity.setCursorPos(x, y);
 		}
 

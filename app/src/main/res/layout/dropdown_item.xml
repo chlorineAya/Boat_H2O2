@@ -5,7 +5,8 @@
 	android:layout_height="fill_parent"
 	android:orientation="horizontal"
 	android:paddingBottom="10dip"
-	android:paddingTop="10dip">
+	android:paddingTop="10dip"
+	android:foreground="?android:attr/selectableItemBackground">
 
 	<ImageButton
 		android:id="@+id/delete"
@@ -14,19 +15,19 @@
 		android:alpha="0.5"
 		android:layout_alignParentRight="true"
 		android:layout_centerVertical="true"
-		android:layout_marginRight="10dip"
+		android:layout_marginRight="10dp"
 		android:background="@drawable/xicon"
 		android:contentDescription="@string/app_name"/>
 
 	<TextView
 		android:id="@+id/textview"
-		style="?android:attr/dropDownItemStyle"
+		android:fontFamily="@font/sans"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		android:layout_toLeftOf="@id/delete"
 		android:singleLine="true"
-		android:textColor="#ff000000"
-		android:textAppearance="?android:attr/textAppearanceSmallInverse"/>
+		android:textAppearance="?android:attr/textAppearanceSmallInverse"
+		android:textColor="@color/appBlack_ff"/>
 
 </RelativeLayout>
 

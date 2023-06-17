@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="list_preference_control">
+        <item>None</item>
+        <item>Space</item>
+        <item>LShift</item>
+    </string-array>
+
+    <string-array name="list_preference_control_value">
+        <item>None</item>
+        <item>Space</item>
+        <item>LShift</item>
+    </string-array>
+
+    <string-array name="list_preference_theme">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue(Default)</item>
+        <item>Cyan</item>
+        <item>Purple</item>
+        <item>Pink</item>
+        <item>Brown</item>
+    </string-array>
+
+    <string-array name="list_preference_gl">
+        <item>GL4ES-1.1.2</item>
+        <item>GL4ES-1.1.5</item>
+    </string-array>
+
+    <string-array name="list_preference_gl_value">
+        <item>libGL112.so.1</item>
+        <item>libGL115.so.1</item>
+    </string-array>
+
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="download_source">
+        <item>@string/spinner_official</item>
+        <item>@string/spinner_mcbbs</item>
+        <item>@string/spinner_bmclapi</item>
+    </string-array>
+
+    <string-array name="download_source_value">
+        <item>https://launchermeta.mojang.com</item>
+        <item>https://download.mcbbs.net</item>
+        <item>https://bmclapi2.bangbang93.com</item>
+    </string-array>
+
+</resources>

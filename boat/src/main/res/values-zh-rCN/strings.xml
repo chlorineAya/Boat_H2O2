@@ -61,8 +61,16 @@
     <string name="down">下载文件(Beta)</string>
     <string name="downtip">如果你在下载过程中不小心关闭了这个软件的进程，需要点击Delete键来进行清除缓存，然后重新进行下载。</string>
     -->
- 
- 
- 
     
+    <string name="touch_mode_1">战斗模式</string>
+	<string name="touch_mode_2">建筑模式</string>
+ 
+    <string name="fc">连点</string>
+    <string name="app_restart">重新启动</string>
+
+    <string name="crash_test">崩溃测试</string>
+    <string name="crash_hint">启动器崩溃了！但请不要担心，点击重启按钮即可重新启动app。在这之前，您也可以查看下方崩溃日志。</string>
+    <string name="crash_title">错误</string>
+
+
 </resources>

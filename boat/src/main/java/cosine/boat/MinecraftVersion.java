@@ -3,7 +3,6 @@ import java.util.*;
 import com.google.gson.*;
 import java.io.*;
 import java.lang.reflect.*;
-import com.google.gson.reflect.*;
 
 public class MinecraftVersion
 {
@@ -297,6 +296,7 @@ public class MinecraftVersion
 		int state = 0;
 		int start = 0;
 		int stop = 0;
+		String pdir = LauncherConfig.privateDir();
 		for (int i = 0; i < test.length(); i++){
 			if (state == 0 ){
 				if (test.charAt(i) != '$'){
@@ -324,7 +324,7 @@ public class MinecraftVersion
 					String value = "";
 
 					if (key != null && key.equals("version_name")){
-						value = "Boat_H2O2-2.1.93";
+						value = "HPv3";
 					}
 					else if (key != null && key.equals("assets_index_name")){
 
@@ -336,6 +336,9 @@ public class MinecraftVersion
 							value = assets;
 						}
 
+					}
+					else if (key != null && key.equals("game_directory") && pdir.equals("true")){
+						value = config.get("currentVersion");
 					}
 
 					else{

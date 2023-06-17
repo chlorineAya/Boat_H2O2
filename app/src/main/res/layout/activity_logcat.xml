@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/log_lay"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_card_background"
+        app:elevation="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/material_card_background"
+            app:elevation="0dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/log_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_background"
+        android:orientation="horizontal"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicator="@drawable/tab_selector"
+        app:tabIndicatorFullWidth="false">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/log_boat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOAT"
+            android:checked="true"
+            android:fontFamily="@font/sans"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/log_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APP"
+            android:fontFamily="@font/sans"/>
+
+    </com.google.android.material.tabs.TabLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ListView
+                android:clipChildren="false"
+                android:layout_gravity="clip_vertical"
+                android:id="@+id/view_log"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@color/appBlack_35"
+                android:dividerHeight="1dp"
+                android:fastScrollEnabled="true"/>
+
+            <ListView
+                android:clipChildren="false"
+                android:layout_gravity="clip_vertical"
+                android:id="@+id/view_log2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@color/appBlack_35"
+                android:dividerHeight="1dp"
+                android:fastScrollEnabled="true"/>
+
+        </LinearLayout>
+
+</LinearLayout>

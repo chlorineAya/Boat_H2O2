@@ -1,9 +1,12 @@
 package cosine.boat;
 import java.util.HashMap;
-import com.google.gson.Gson;
+import com.google.gson.*;
 import com.google.gson.JsonSyntaxException;
 import java.io.UnsupportedEncodingException;
 import android.util.Log;
+import java.io.FileInputStream;
+import org.json.JSONObject;
+import android.widget.Toast;
 
 
 public class LauncherConfig extends HashMap<String, String>
@@ -52,6 +55,50 @@ public class LauncherConfig extends HashMap<String, String>
 			value = super.get(key);
 		}
 		return value;
+	}
+	public static String privateDir() {
+        try {
+            FileInputStream in=new FileInputStream("/sdcard/games/com.koishi.launcher/h2o2/h2ocfg.json");
+            byte[] b=new byte[in.available()];
+            in.read(b);
+            in.close();
+            String str=new String(b);
+            JSONObject json=new JSONObject(str);
+            return json.getString("allVerLoad");
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return "false";
+    }
+	
+	public static String loadgl() {
+        try {
+            FileInputStream in=new FileInputStream("/sdcard/games/com.koishi.launcher/h2o2/h2ocfg.json");
+            byte[] b=new byte[in.available()];
+            in.read(b);
+            in.close();
+            String str=new String(b);
+            JSONObject json=new JSONObject(str);
+            return json.getString("openGL");
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return "libGL112.so.1";
+    }
+
+	public static String api() {
+		try {
+			FileInputStream in=new FileInputStream("/sdcard/games/com.koishi.launcher/h2o2/h2ocfg.json");
+			byte[] b=new byte[in.available()];
+			in.read(b);
+			in.close();
+			String str=new String(b);
+			JSONObject json=new JSONObject(str);
+			return json.getString("LoginApi");
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		return "Microsoft";
 	}
 
 }

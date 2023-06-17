@@ -1,111 +1,103 @@
-<?xml version='1.0' encoding='utf-8'?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.koishi.launcher.h2o2">
-    
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.koishi.launcher.h2o2pro">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
     <uses-permission
-		android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission 
-		android:name="android.permission.INTERNET" />
-	<uses-permission
-		android:name="android.permission.DISABLE_KEYGUARD" />
-	<uses-permission 
-		android:name="android.permission.READ_LOGS" />
-    <uses-permission 
-		android:name="android.permission.ACCESS_NETWORK_STATE" />
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
+        android:name="cosine.boat.BoatApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_h2o2_lowpx"
+        android:icon="@drawable/ic_h2o2_low_px"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme.NoActionBar"
-        android:resizeableActivity="false">
-
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
-        </activity>
-		
-		<activity
-            android:name=".SplashActivity"
-            android:label="@string/app_name">
+            android:name=".LogcatActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/log_title"
+            android:theme="@style/AppBaseTheme.NoActionBar"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings"
+            android:theme="@style/AppBaseTheme.NoActionBar.Settings" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ModsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".VersionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".InstructionActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".TerminalActivity"
+            android:label="@string/menu_terminal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar">
             <intent-filter>
-				<action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
-            android:name=".func.ExecuteActivity"
-            android:parentActivityName=".func.ExecuteActivity"
-            android:label="@string/menu_2">
-        </activity>
+            android:name=".MainActivity"
+            android:configChanges="uiMode"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".func.CustomActivity"
-            android:parentActivityName=".func.CustomActivity"
-            android:label="@string/menu_3">
-        </activity>
+            android:name="com.mistake.revision.VanillaActivity"
+            android:label="Minecraft"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
         <activity
-            android:name=".func.KeysActivity"
-            android:parentActivityName=".func.KeysActivity"
-            android:label="@string/menu_4">
-        </activity>
+            android:name=".InitialActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
         <activity
-            android:name=".func.PacksActivity"
-            android:parentActivityName=".func.PacksActivity"
-            android:label="@string/menu_5">
-        </activity>
-        <activity
-            android:name=".func.WorldsActivity"
-            android:parentActivityName=".func.WorldsActivity"
-            android:label="@string/menu_6">
-        </activity>
-        <activity
-            android:name=".func.TexturesActivity"
-            android:parentActivityName=".func.TexturesActivity"
-            android:label="@string/menu_7">
-        </activity>
-        <activity
-            android:name=".func.ModsActivity"
-            android:parentActivityName=".func.ModsActivity"
-            android:label="@string/menu_8">
-        </activity>
-        <activity
-            android:name=".func.DonateActivity"
-            android:parentActivityName=".func.DonateActivity"
-            android:label="@string/menu_9">
-        </activity>
-        <activity
-            android:name=".func.AboutActivity"
-            android:parentActivityName=".func.AboutActivity"
-            android:label="@string/menu_10">
-		</activity>
-		<activity
-            android:name=".func.LogActivity"
-            android:parentActivityName=".func.LogActivity"
-            android:label="@string/menu_11">
-		</activity>
-		<activity
-            android:name=".func.DownloadActivity"
-            android:parentActivityName=".func.DownloadActivity"
-            android:label="@string/dn">
-		</activity>
-		<activity
-            android:name=".func.InitialActivity"
-            android:parentActivityName=".func.DownloadActivity"
-            android:label="@string/app_name">
-		</activity>
-		<activity
-            android:name=".func.LoginActivity"
-            android:theme="@style/DefaultTheme"
-            android:label="@string/app_name">
-		</activity>
-        
-      <meta-data
-          android:name="android.max_aspect"
-          android:value="4.0"/>
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoActionBar" />
+
+        <service android:name="com.mistake.revision.Download.DownloadService" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="org.koishi.launcher.h2o2pro.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
 
     </application>
-	
+
 </manifest>

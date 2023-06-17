@@ -1,101 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Boat_H2O2</string>
-    
-    <string name="title_activity_drawer_layout_one">DrawerLayout+NavigationView</string>
-    <string name="title_activity_drawer_layout_below">NavigationView below Toolbar</string>
-    <string name="title_activity_drawer_layout_other">DrawerLayout+other</string>
+    <string name="app_name">Boat_H2O2 Pro</string>
+    <string name="launcher_play_boat" translatable="false">开始游戏（Boat）</string>
+    <string name="launcher_play_boardwalk" translatable="false">开始游戏（Pojav）</string>
+    <string name="launcher_activity_name_setting">设置</string>
+    <string name="launcher_activity_name_log">查看日志</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_home" translatable="false">主页</string>
+    <string name="menu_install" translatable="false">安装</string>
+    <string name="menu_custom" translatable="false">工具箱</string>
+    <string name="menu_manager" translatable="false">目录</string>
 
-    <string name="action_settings">Settings</string>
-	<string name="install">Install</string>
-    
-    <string name="menu_t1">启动器</string>
-    <string name="menu_t2">我的世界</string>
-    <string name="menu_t3">关于</string>
-    
-    <string name="menu_1">主页</string>
-    <string name="menu_12">您还没有安装运行库</string>
-    <string name="menu_13">您还没有安装版本(暂无可用无服务器，故不支持在线下载，请前往整合包管理自行导入。)</string>
-    <string name="menu_14">请选择游戏版本</string>
-    <string name="menu_15">安装Minecraft(暂无可用无服务器，故不支持在线下载，请前往整合包管理自行导入。)</string>
-    <string name="menu_16">安装运行库及补丁</string>
-    <string name="menu_17">请选择Minecraft版本</string>
-    <string name="menu_18">错误路径，请重选！</string>
-      <string name="menu_19">没有config.txt或者gamedir，点击设置默认整合包路径按钮重置。</string>
-      
-    <string name="menu_2">测试</string>
-    <string name="menu_2_hint">输入运行库路径(tar.xz)</string>
-    
-    <string name="menu_3">设定</string>
-    <string name="menu_3_name">离线用户名(正版无需修改)</string>
-    <string name="menu_3_mem">JVM参数(包括内存设置及其他参数)</string>
-    
-    <string name="menu_4">键盘布局</string>  
-     
-    <string name="menu_5">整合包管理(仅支持zip内包含名为boat的主体文件夹整合包)</string>
-    <string name="menu_5_adt">提示</string>
-    <string name="menu_5_adm">是否删除当前文件？</string>
-    <string name="menu_5_tt">整合包已经删除，已恢复到默认整合包。</string>
-    <string name="menu_5_ttd">安装完成！</string>
-    <string name="menu_5_ttdn">您安装了错误的整合包，请选择正确的整合包。</string>
-    <string name="menu_5_dfd">设置默认路径</string>
-    <string name="menu_5_ttt">已设置成默认整合包路径</string>
-    <string name="menu_5_adtt">提示</string>
-    <string name="menu_5_hint">输入你想添加整合包的备注</string>
-    <string name="menu_5_ref">刷新</string>
-    <string name="menu_5_dn">下载</string>
-    <string name="menu_5_add">添加</string>
-    <string name="menu_5_del">删除</string>
-    <string name="menu_5_delall">你要删除全部文件嘛？</string>
-    
-    <string name="menu_6">地图管理</string>
-    
-    <string name="menu_7">材质管理</string>
-    
-    <string name="menu_8">模组管理</string>
-    
-    <string name="menu_9">捐赠</string>
-    <string name="menu_9_1">感谢您的支持，如果喜欢的话可以支持一下恋恋酱嘛awa 也许这个启动器不会像其他某些启动器那样出名，但是只要有人支持，我肯定会努力更新下去的！</string>
-    <string name="menu_9_richer">土豪榜(ver1.0 2020.12-2021.2)</string>
-    
-    <string name="menu_10">关于Boat_H2O2</string>
-    <string name="menu_10_1">启动器由酷安用户@東風谷早喵开发，使用BoatApp作为此启动器所依赖的后端。Boat_H2O启动器所有权归@東風谷早喵所有。感谢Github@CosineMath对启动器提供的后端支持。</string>
-    <string name="menu_10_2">该项目已经开源(GPLv3)，启动器代码、详细说明以及游戏资源请点击下方链接查看。</string>
-    <string name="menu_10_3">在开发过程中，有以下用户对该项目做出了贡献:\nGitHub@CosineMath(后端支持)\nGitHub@Fire(技术支持)\nGitHub@JiuXia2025(图标设计)\nBilibili@异星之尘(后端提供)</string>
-    <string name="menu_10_4">版权归属：\n前端启动器：酷安@東風谷早喵 (GitHub@NaCln4c1)\n后端核心支持：贴吧@郑王柴宗训 (GitHub@CosineMath)\n我的世界Minecraft-Java版：\n©Microsoft Corporation (1975-2021)/©Mojang Studios (2009-2021)</string>
-    <string name="menu_10_5">开源地址</string>
-    <string name="menu_10_6">该启动器引用的开源项目：\n    BoatApp\n    LfilePicker</string>
-    <string name="m102">开放源代码</string>
-    <string name="m103">贡献者</string>
-    <string name="m104">版权说明</string>
-    <string name="m105">友情链接 (McinaBox)</string>
-    <string name="m106">所使用的开源项目</string>
-    <string name="m107">McinaBox是由开发团队AOF所制作的启动器，其主要成员有 飞龙在天 (GitHub@longjunyu2)、 jvm (GitHub@CosineMath)、 Lambda、 風，以及很多默默无闻努力的Boat改版开发者和一些国外老哥。McinaBox在前端方面较为完美地还原了Hello Minecraft Launcher，后端在优化的同时提高了用户的游玩体验，值得一试。</string>
-    <string name="m108">访问</string>
-    
-    <string name="dn">下载文件</string>
-    <string name="dn2">运行库</string>
-    <string name="dn3">从官方列表下载Minecraft</string>
-    <string name="dn4">从互联网上下载Minecraft</string>
-    <string name="dn5">从本地文件安装Minecraft</string>
-    <string name="dn6">提示：在此页面安装的游戏均是基于目前所选择的目录内安装，如果想安装在其他目录中，请前往整合包管理页面添加一个空白目录！</string>
-    
-    <string name="dn7">从互联网上下载运行库</string>
-    <string name="dn8">从本地文件安装运行库</string>
-    
-    <string name="login_title">在线模式</string>
-    <string name="login_account">Mojang账号(邮箱)</string>
+    <string name="action_settings" translatable="false">设置(不可用)</string>
+
+    <string name="nav_header_desc" translatable="false">用户</string>
+    <string name="nav_header_title" translatable="false">玩家</string>
+    <string name="nav_header_subtitle" translatable="false">example@gmail.com</string>
+
+    <string name="launcher_check_file_true">游戏已被成功安装！</string>
+    <string name="launcher_check_file_true_tip">点击下方按钮开始游戏</string>
+    <string name="launcher_check_file_false">游戏文件缺失！</string>
+    <string name="launcher_check_file_false_tip">请检查下方信息</string>
+    <string name="launcher_check_file_msg_runtime">运行库(Runtime)</string>
+    <string name="launcher_check_file_msg_runtime_true">已安装</string>
+    <string name="launcher_check_file_msg_runtime_false">未安装</string>
+    <string name="launcher_check_file_msg_gamedir">游戏主体(Gamedir)</string>
+    <string name="launcher_check_file_msg_gamedir_true">已安装</string>
+    <string name="launcher_check_file_msg_gamedir_false">未安装</string>
+    <string name="launcher_check_file_msg_cfg">配置文件</string>
+    <string name="launcher_check_file_msg_cfg_true">正常</string>
+    <string name="launcher_check_file_msg_cfg_false">出错</string>
+    <string name="launcher_check_file_msg_ver">游戏版本</string>
+    <string name="launcher_check_file_msg_ver_true">有版本</string>
+    <string name="launcher_check_file_msg_ver_false">无版本</string>
+    <string name="launcher_main_local_install_runtime">本地安装</string>
+    <string name="launcher_main_online_install_runtime">在线下载</string>
+    <string name="launcher_main_local_install_gamedir">本地安装</string>
+    <string name="launcher_main_online_install_gamedir">在线下载</string>
+    <string name="launcher_main_runtime_tip">运行Minecraft的核心，支持1.6-21w09a版本的运行。因为在21w10a版本需要更高的OpenGL核心，而目前所使用的为2.1版本，因此目前无法运行。并且由于技术原因目前没有使用与Pojav相同的渲染器(GL4ES而非Zink)，所以不支持大多数光影。</string>
+    <string name="launcher_main_gamedir_tip">目前暂时不支持自动安装，请手动解压gamedir文件夹到"/storage/emulated/0/games/com.koishi.launcher/h2o2" 目录下, 如果不存在，请手动创建。</string>
+    <string name="launcher_main_how_to_use">说明</string>
+    <string name="launcher_main_how_to_use_tip">说明及事项</string>
+    <string name="launcher_check_file">文件检查</string>
+    <string name="launcher_check_file_tip">你必须确保以下项目为正常才能运行。</string>
+    <string name="launcher_msg_open">展开</string>
+    <string name="launcher_msg_close">收起</string>
+    <string name="launcher_main_ready">就绪版本</string>
+    <string name="launcher_main_log">查看日志和问题</string>
+    <string name="launcher_main_log_summary">如果出现问题请及时告诉我</string>
+    <string name="launcher_main_device">信息</string>
+    <string name="launcher_main_device_summary">设备及安装信息</string>
+    <string name="launcher_main_reg">注册Minecraft账号</string>
+    <string name="launcher_main_reg_summary">请支持正版</string>
+    <string name="launcher_main_help">使用帮助</string>
+    <string name="launcher_main_star">给此应用评分</string>
+    <string name="launcher_main_share">分享此应用</string>
+    <string name="launcher_main_none">未开通</string>
+    <string name="share_with">分享到...</string>
+    <string name="share_url">Boat_H2O2, 一款轻便的运行在Android设备上的Minecraft启动器。\n下载链接: https://github.com/NaCln4c1/Boat_H2O2/releases \nTim或QQ群号: 572291176\nDiscord: https://discord.gg/Ktw9sYx879</string>
+    <string name="dialog">公告</string>
+
+    <string name="launcher_download_runtimeDownload">下载运行库文件</string>
+    <string name="launcher_download_gameDownload">下载游戏文件</string>
+    <string name="launcher_download_runtimeInstall">从本地安装运行库文件</string>
+    <string name="launcher_download_gameInstall">从本地安装游戏文件</string>
+    <string name="launcher_initial_install">未检测到运行库，正在解压安装...</string>
+    <!--Setting page-->
+    <!--basic-->
+    <string name="launcher_settings_title_basic">基本设置</string>
+    <string name="launcher_settings_player_id">游戏ID（离线专用）</string>
+    <string name="launcher_settings_jvm">设置JVM参数</string>
+    <string name="launcher_settings_mouse_mode">键鼠模式</string>
+    <!--func-->
+    <string name="launcher_settings_title_func">功能设置</string>
+    <string name="launcher_settings_isolate">版本隔离</string>
+    <string name="launcher_settings_isolate_summary">将Mod、存档、材质、地图等隔离运行。这个开关是全局设置，单独隔离某个版本请在单独版本设置中打开。</string>
+    <string name="launcher_settings_control">十字键中心键值</string>
+    <string name="launcher_settings_control_title">选择键值</string>
+    <string name="launcher_settings_theme">应用主题</string>
+    <string name="launcher_settings_theme_title">设置颜色</string>
+    <string name="launcher_settings_load_gl">选择渲染器</string>
+    <string name="launcher_settings_load_gl_title">libGL</string>
+    <!--extra-->
+    <string name="launcher_settings_title_extra">额外设置</string>
+    <string name="launcher_settings_right_click_mode">将鼠标右键视为返回</string>
+    <string name="launcher_settings_right_click_mode_summary">某些厂商的ROM会修改鼠标键的输出。</string>
+    <string name="launcher_settings_no_esc">后台运行时不自动暂停</string>
+    <!--color-->
+    <string name="launcher_settings_theme_red">光亮红</string>
+    <string name="launcher_settings_theme_orange">水果橙</string>
+    <string name="launcher_settings_theme_yellow">亮金黄</string>
+    <string name="launcher_settings_theme_green">恋恋绿</string>
+    <string name="launcher_settings_theme_blue">索尼蓝</string>
+    <string name="launcher_settings_theme_cyan">初音青</string>
+    <string name="launcher_settings_theme_purple">基佬紫</string>
+    <string name="launcher_settings_theme_pink">哔咔粉</string>
+    <string name="launcher_settings_theme_Brown">咖啡棕</string>
+
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="nav_title_2">游戏</string>
+
+    <string name="nav_header_status">离线状态</string>
+    <string name="nav_header_status_true">在线状态</string>
+
+    <string name="nav_header_account_mode">在线模式</string>
+    <string name="launcher_initial_install_check">检查文件...</string>
+    <string name="launcher_initial_install_start">正在安装默认主体文件...</string>
+
+    <string name="login_title">登录到Minecraft</string>
+    <string name="login_account">邮箱</string>
     <string name="login_password">密码</string>
     <string name="login_checkbox">记住密码</string>
     <string name="login">登录</string>
+    <string name="login_language">简体中文(中国)</string>
     <string name="login_offline">离线模式</string>
-    <string name="login_new">添加账号</string>
+    <string name="login_new">登出</string>
     <string name="login_welcome">欢迎玩家</string>
     <string name="login_as">进入启动器，作为玩家</string>
     <string name="login_ing">正在登入...</string>
     <string name="login_retry">请重试</string>
+    <!--
     <string name="login_env">[简体中文:注意，自2021年起所有Mojang账号将会陆续迁移至Microsoft账号，在此页面将无法使用新的微软账号或旧的Mojang账号进行登录。后续该启动器将会提供Microsoft账号登录功能。]</string>
-    
+    -->
+    <string name="login_logout">登出</string>
+    <string name="action">提示</string>
+    <string name="resetapp">尝试修复崩溃。</string>
+    <string name="resetwarn">确定要重置吗？</string>
+    <string name="resetcfg">重置配置文件</string>
+    <string name="delete">删除</string>
+
+    <string name="log_refresh">刷新</string>
+    <string name="log_android">查看APP日志</string>
+    <string name="log_send">发送</string>
+    <string name="log_tip">这是Boat APP的日志页面，如果您想查看启动器的日志，请点击查看APP日志按钮。您可以将它分享给朋友来获得帮助。当然，最好的办法是发送给开发者，她会尽可能地帮助你。但是请记住，无论如何都不要将它发给任何你所不信任的人查看！</string>
+    <string name="custom_id">游戏ID</string>
+    <string name="log_tip_app">这是启动器的日志页面，如果您想查看客户端的日志，请点击刷新按钮。您可以将它分享给朋友来获得帮助。当然，最好的办法是发送给开发者，她会尽可能地帮助你。但是请记住，无论如何都不要将它发给任何你所不信任的人查看！</string>
+    <string name="custom_jvm">JVM参数(内存、参数等)</string>
+    <string name="custom_basic">基本设置</string>
+    <string name="custom_more">更多设置</string>
+    <string name="custom_gl">LibGL</string>
+    <string name="custom_right_click">右键视为放置</string>
+    <string name="custom_isolate">版本隔离</string>
+    <string name="custom_control">十字键中心键值</string>
+    <string name="custom_reset_config">重置配置文件</string>
+    <string name="custom_reset_runtime">重置运行库</string>
+    <string name="custom_back">后台不自动暂停</string>
+    <string name="log_send_to">保存成功，是否发送给恋恋酱？（选择邮件发送日志lhnn4c12016@hotmail.com）</string>
+    <string name="donate">捐赠</string>
+    <string name="donate_tip">感谢您的使用，如果您想给予我更多支持，是否考虑一下捐赠呢？如果可以的话，在下面三个链接中任意选择一个进行捐赠。如果使用爱发电或者Patreon进行捐赠，您将有机会出现在捐赠榜单里！</string>>
+
+    <string name="dialog_about">编写: <a href='http://www.coolapk.com/u/1996447'>酷安@東風谷早喵</a>, 具体代码可以访问: <a href='https://github.com/NaCln4c1/Boat_H2O2'>Github开源地址</a></string>
+    <string name="nav_title_3">关于</string>
+    <string name="menu_donate">捐赠</string>
+    <string name="menu_ver">版本列表</string>
+    <string name="menu_res">资源管理</string>
+    <string name="menu_title_launcher">启动器</string>
+    <string name="menu_title_game">游戏</string>
+    <string name="menu_title_pack">游戏目录</string>
+    <string name="menu_account">账户管理</string>
+    <string name="menu_title_account">账户</string>
+    <string name="home_sw_online">在线登录</string>
+    <string name="login_offline_id">离线ID</string>
+    <string name="settings">设置</string>
+    <string name="packs_new">安装</string>
+    <string name="vers_new">下载</string>
+    <string name="choose_mode">选择模式</string>
+    <string name="choose_mode_mouse">键鼠(有Bug)</string>
+    <string name="choose_mode_touch">触控</string>
+    <string name="choose_mode_cancel">取消</string>
+    <string name="menu_more">更多</string>
+    <string name="bc_wait">拉取公告中...</string>
+    <string name="install_title_1">游戏</string>
+    <string name="install_title_2">整合包</string>
+    <string name="install_title_3">游戏资源</string>
+    <string name="device_info">我的设备</string>
+    <string name="broadcast">公告</string>
+    <string name="account_before">欢迎</string>
+    <string name="account_after">点击管理</string>
+    <string name="coming_soon">即将推出！</string>
+    <string name="welcome_perm">去获取读写权限</string>
+    <string name="welcome_skip_hint">不再显示这个页面</string>
+    <string name="welcome_start">点击开始</string>
+    <string name="welcome_help">如何使用</string>
+    <string name="welcome_perm_true">已经获得了权限！</string>
+    <string name="info_android_ver">Android版本</string>
+    <string name="info_device">我的设备</string>
+    <string name="info_cpu">处理器</string>
+    <string name="info_root">Root权限</string>
+    <string name="info_root_true">有</string>
+    <string name="info_root_false">找不到</string>
+    <string name="login_done">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="launcher_main_check">补全</string>
+    <string name="launcher_main_check_summary">尝试修复原版闪退</string>
+    <string name="custom_source">下载源</string>
+    <string name="total">总进度</string>
+    <string name="download_page_title">安装文件中</string>
+    <string name="exit">关闭</string>
+    <string name="download_done">下载完成</string>
+    <string name="download_tip">如果下载缓慢，请点击刷新按钮。</string>
+    <string name="cancel">取消</string>
+    <string name="refresh">刷新</string>
+    <string name="manager_set_directory">游戏目录</string>
+    <string name="manager_set">设置路径</string>
+    <string name="install_done">设置成功</string>
+    <string name="no_ver">没有版本</string>
+    <string name="manager_reset">重置目录</string>
+    <string name="app_welcome">欢迎使用</string>
+    <string name="terminal_exec">执行</string>
+    <string name="menu_terminal">终端</string>
+    <string name="terminal_text">输入命令</string>
+    <string name="terminal_clear">清除记录</string>
+    <string name="terminal_undo">上一个输出</string>
+    <string name="terminal_redo">下一个输出</string>
+    <string name="terminal_clear_history">清除记录</string>
+    <string name="manager_output_directory">设置输出目录</string>
+    <string name="manager_output">安装整合包到目录</string>
+    <string name="inst_open_bili">打开视频教程</string>
+    <string name="menu_res_more">额外补充</string>
+    <string name="tab_launch">启动</string>
+    <string name="home_view_library">查看H2O2仓库</string>
+    <string name="open_source_library">引用的第三方库</string>
+    <string name="thanks">感谢名单</string>
+    <string name="menu_theme">主题</string>
+    <string name="theme_follow_system">跟随系统(建议重启app)</string>
+    <string name="restart_to_active">重启以生效</string>
+    <string name="app_theme_light">亮色</string>
+    <string name="app_theme_dark">暗色</string>
+    <string name="api_3rd">第三方认证API</string>
+    <string name="api_title">选择登录方式</string>
+    <string name="home_login_start_toast">正在登入...</string>
+    <string name="home_no_account">没有账号或者输入框有空内容</string>
+    <string name="home_no_username">用户名不能为空</string>
+    <string name="custom_mcf">额外的Minecraft参数</string>
+    <string name="custom_web_go">访问</string>
+    <string name="custom_web_url">第三方API网站URL</string>
+    <string name="custom_web_url_title">输入网址</string>
+    <string name="home_open_api_btn_text">访问API所属网站</string>
+    <string name="api_action">当前第三方API登录为首次测试，目前仅支持1账号对应1用户名。后续将会开放多用户名选择。在这之前你必须确保账号满足上述支持条件。如果你没有准备好，点击下方访问按钮前往你的API所属网站设置皮肤与id。</string>
+    <string name="home_open_mojang_btn_text">账号迁移说明</string>
+    <string name="home_open_register_btn_text">注册并购买</string>
+    <string name="api_mojang">Mojang (2021.12.31之后不再支持，详见迁移说明)</string>
+    <string name="api_ms">微软</string>
+    <string name="http_hint"><![CDATA[http:// 或 https://]]></string>
+    <string name="download_release">正式版</string>
+    <string name="download_snapshot">快照版</string>
+    <string name="download_old_beta">远古版</string>
+    <string name="app_welcome_hint">这是欢迎页面。如果你看到了这个页面，那就意味着该应用没有获得存储权限或者没有禁止该页面再次弹出。点击按钮即可获得存储权限；如果拒绝，那么您必须手动前往设置页面授予。</string>
+    <string name="welcome_give">手动授权</string>
+    <string name="ver_input_hint">确保路径前缀为 /storage/emulated/0 或者 /sdcard 或者 /mnt/sdcard</string>
+    <string name="ver_not_dir">这好像不是一个目录...</string>
+    <string name="ver_already_exists">这条路径已经存在</string>
+    <string name="ver_not_right_dir">这不是正确的路径</string>
+    <string name="ver_add_done">完成</string>
+    <string name="ver_null_dir">这条路径似乎消失了</string>
+    <string name="ver_if_del">确定删除？</string>
+    <string name="stop_app">当前设备不支持运行该应用程式，请使用手机启动！</string>
+    <string name="manager_set_directory_name">Directory name</string>
+    <string name="menu_mod">模组管理</string>
+    <string name="menu_mod_single">模组管理（版本隔离）</string>
+    <string name="add_file">添加</string>
+    <string name="start_add_mod">导入中，请稍后，导入过程会自动刷新。</string>
+    <string name="mods_tip"> 如果标题栏显示版本隔离，说明您已经开启了版本隔离开关，这时候您可以自由管理该版本的模组。当然，如果想管理所有版本共有的模组文件夹，请关闭此开关。</string>
+    <string name="launcher_main_save_acc">保存当前账号</string>
+    <string name="single_ver">在单独路径中运行Minecraft。</string>
+    <string name="custom_launcher">Launcher</string>
+    <string name="custom_pause">AFK</string>
+    <string name="log_title">查看日志</string>
+    <string name="launcher_check_file_summary">不检查文件完整性(重启app生效)。</string>
+
+    <string name="set_launguage_title">语言</string>
+    <string name="set_language_summary">切换语言</string>
+    <string name="set_language_help_title">翻译</string>
+    <string name="set_language_help_summary">参与翻译到您的语言。</string>
+    <string name="set_language_text_summary">当前app缺乏多种语言支持，暂时仅支持跟随系统翻译，如果您对翻译感兴趣，欢迎下载我的文件并将其翻译到您的语言！届时将会开启语言切换功能。</string>
+    <string name="app">启动器</string>
+    <string name="theme_summary">使用Android12 Material You主题。</string>
+    <string name="remove">移除列表</string>
+    <string name="spinner_official">官方源</string>
+    <string name="spinner_mcbbs">MCBBS源</string>
+    <string name="spinner_bmclapi">BMCLAPI源</string>
+    <string name="ver_type_release">release</string>
+    <string name="welcome_perm_title">权限</string>
+
 </resources>

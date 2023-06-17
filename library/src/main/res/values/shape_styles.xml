@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearance.Frames.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/small_components_corner_size</item>
+    </style>
+
+    <style name="ShapeAppearance.Frames.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/medium_components_corner_size</item>
+    </style>
+
+    <style name="ShapeAppearance.Frames.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/large_components_corner_size</item>
+    </style>
+
+    <style name="ShapeAppearance.Frames.CardView" parent="ShapeAppearance.Frames.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/cards_corner_size</item>
+    </style>
+
+    <!-- Should match ShapeAppearance.Frames.CardView -->
+    <style name="ShapeAppearance.Frames.Wallpapers" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/cards_corner_size</item>
+    </style>
+
+    <style name="Widget.Frames.MaterialCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearance">@style/ShapeAppearance.Frames.CardView</item>
+        <item name="cardElevation">@dimen/cards_elevation</item>
+    </style>
+
+    <style name="Frames.Dialogs" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">?colorSecondary</item>
+        <item name="materialButtonStyle">@style/Frames.Dialogs.Button</item>
+    </style>
+
+</resources>

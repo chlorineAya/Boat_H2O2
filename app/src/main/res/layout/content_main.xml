@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/fragment_home"
+            android:name="org.koishi.launcher.h2o2pro.ui.home.HomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:label="@string/menu_home"
+            tools:layout="@layout/fragment_home" />
+
+        <fragment
+            android:id="@+id/fragment_version"
+            android:name="org.koishi.launcher.h2o2pro.ui.version.VersionFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:label="@string/menu_ver"
+            tools:layout="@layout/fragment_custom" />
+
+
+        <fragment
+            android:id="@+id/fragment_manager"
+            android:name="org.koishi.launcher.h2o2pro.ui.manager.ManagerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:label="@string/menu_manager"
+            tools:layout="@layout/fragment_manager" />
+
+        <fragment
+            android:id="@+id/fragment_install"
+            android:name="org.koishi.launcher.h2o2pro.ui.install.InstallFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:label="@string/menu_install"
+            tools:layout="@layout/fragment_custom" />
+
+
+        <fragment
+            android:id="@+id/fragment_custom"
+            android:name="org.koishi.launcher.h2o2pro.ui.custom.CustomFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:label="@string/menu_more"
+            tools:layout="@layout/fragment_custom" />
+
+    </RelativeLayout>
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.0-alpha02" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.0-alpha02)" variant="fatal" version="7.2.0-alpha02">
+
+    <issue
+        id="MissingDefaultResource"
+        message="The color &quot;palette_bg&quot; in values-night has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;color name=&quot;palette_bg&quot;>#090909&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-night/colors.xml"
+            line="74"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingDefaultResource"
+        message="The color &quot;palette_fg&quot; in values-night has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier"
+        errorLine1="    &lt;color name=&quot;palette_fg&quot;>#5e5e5e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values-night/colors.xml"
+            line="75"
+            column="12"/>
+    </issue>
+
+</issues>

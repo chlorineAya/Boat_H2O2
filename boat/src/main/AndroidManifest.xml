@@ -1,67 +1,86 @@
-<?xml version='1.0' encoding='utf-8'?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cosine.boat">
 
     <uses-feature
-		android:glEsVersion="0x00020000"
-		android:required="true" />
-    <uses-permission
-		android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission 
-		android:name="android.permission.INTERNET" />
-	<uses-permission
-		android:name="android.permission.DISABLE_KEYGUARD" />
-	<uses-permission 
-		android:name="android.permission.READ_LOGS" />
-    <uses-permission 
-		android:name="android.permission.ACCESS_NETWORK_STATE" />
-	
-    <application 
-		android:label="@string/app_name" 
-		android:largeHeap="true"
-		android:name="cosine.boat.BoatApplication">
-        <activity 
-			android:label="@string/app_name" 
-			android:name="LauncherActivity" 
-			android:configChanges="keyboardHidden|orientation">
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".BoatApplication"
+        android:label="@string/app_name"
+        android:largeHeap="true">
+        <activity
+            android:name=".CrashActivity"
+            android:theme="@style/AppBaseTheme.NoActionBar"
+            android:label="@string/crash_title"/>
+        <activity
+            android:name=".LauncherActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".LauncherActivityMk"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"/>
+
+        <service
+            android:name=".logcat.LogcatService"
+            android:process=":logcatprocess" />
+
+        <activity
+            android:name=".BoatActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|uiMode|screenSize|navigation"
+            android:excludeFromRecents="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/FullTheme">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="boat" />
         </activity>
-        <activity 
-			android:label="@string/app_name" 
-			android:name="LauncherActivityMk" 
-			android:configChanges="keyboardHidden|orientation">
+        <activity
+            android:name=".BoatActivityBase"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|uiMode|screenSize|navigation"
+            android:excludeFromRecents="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/FullTheme">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="boat" />
         </activity>
-		<service 
-			android:name="cosine.boat.logcat.LogcatService" 
-			android:process=":logcatprocess"/>
-		<activity android:name="BoatActivity"
-			android:theme="@style/FullTheme"
-			android:label="@string/app_name"
-			android:configChanges="orientation|keyboardHidden"
-			android:screenOrientation="sensorLandscape"
-			
-			android:excludeFromRecents="false"
-			android:launchMode="singleInstance"
-			android:alwaysRetainTaskState="true">
-			<meta-data 
-				android:name="android.app.lib_name"
-				android:value="boat" />
-			
+        <activity
+            android:name=".BoatActivityMk"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|uiMode|screenSize|navigation"
+            android:excludeFromRecents="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/FullTheme">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="boat" />
         </activity>
-        <activity android:name="BoatActivityMk"
-			android:theme="@style/FullTheme"
-			android:label="@string/app_name"
-			android:configChanges="orientation|keyboardHidden"
-			android:screenOrientation="sensorLandscape"
-			
-			android:excludeFromRecents="false"
-			android:launchMode="singleInstance"
-			android:alwaysRetainTaskState="true">
-			<meta-data 
-				android:name="android.app.lib_name"
-				android:value="boat" />
-			
-        </activity>
+
+        <receiver android:name=".logcat.UsbBroadCast">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

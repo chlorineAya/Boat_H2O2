@@ -36,7 +36,7 @@ JNIEXPORT void JNICALL Java_cosine_boat_LoadMe_setenv(JNIEnv* env, jclass clazz,
 
 JNIEXPORT void JNICALL Java_cosine_boat_LoadMe_setLibraryPath(JNIEnv *env, jclass clazz, jstring str1) {
 	
-	void* libdl_handle = dlopen("libdl.so", RTLD_LAZY);
+	void* libdl_handle = dlopen("libdl.so", RTLD_GLOBAL);
 	void (*update_func)(const char*) = (void (*)(const char*))dlsym(libdl_handle, "android_update_LD_LIBRARY_PATH");
 	if (update_func == NULL) {
 		update_func = (void (*)(const char*))dlsym(libdl_handle, "__loader_android_update_LD_LIBRARY_PATH");
@@ -138,7 +138,7 @@ JNIEXPORT void JNICALL Java_cosine_boat_LoadMe_patchLinker(JNIEnv *env, jclass c
 #ifdef __aarch64__;
 #define PAGE_START(x) ((void*)((unsigned long)(x) & ~((unsigned long)getpagesize() - 1)))
 
-	void* libdl_handle = dlopen("libdl.so", RTLD_LAZY);
+	void* libdl_handle = dlopen("libdl.so", RTLD_GLOBAL);
 	
 	unsigned* dlopen_addr = (unsigned*)dlsym(libdl_handle, "dlopen");
 	unsigned* dlsym_addr = (unsigned*)dlsym(libdl_handle, "dlsym");
@@ -208,7 +208,7 @@ JNIEXPORT jint JNICALL Java_cosine_boat_LoadMe_dlopen(JNIEnv* env, jclass clazz,
 	char const* lib_name = (*env)->GetStringUTFChars(env ,str1 , 0);
 	
 	void* handle;
-	handle = dlopen(lib_name, RTLD_LAZY);
+	handle = dlopen(lib_name, RTLD_GLOBAL);
 	if (handle == NULL){
 		__android_log_print(ANDROID_LOG_ERROR, "Boat", "%s : %s", lib_name, dlerror());
 	}
@@ -255,7 +255,7 @@ int
 JNIEXPORT void JNICALL Java_cosine_boat_LoadMe_setupJLI(JNIEnv* env, jclass clazz){
 	
 	void* handle;
-	handle = dlopen("libjli.so", RTLD_LAZY);
+	handle = dlopen("libjli.so", RTLD_GLOBAL);
 	JLI_Launch = (int (*)(int, char **, int, const char**, int, const char**, const char*, const char*, const char*, const char*, jboolean, jboolean, jboolean, jint))dlsym(handle, "JLI_Launch");
 	
 }

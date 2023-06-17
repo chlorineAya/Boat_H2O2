@@ -194,7 +194,12 @@ JNIEXPORT void JNICALL Java_cosine_boat_BoatActivity_setBoatNativeWindow(JNIEnv*
 	__android_log_print(ANDROID_LOG_ERROR, "Boat", "setBoatNativeWindow : %p", mBoat.window);
 	mBoat.display = 0;
 }
-
+JNIEXPORT void JNICALL Java_cosine_boat_BoatActivityMk_setBoatNativeWindow(JNIEnv* env, jclass clazz, jobject surface) {
+	
+	mBoat.window = ANativeWindow_fromSurface(env, surface);
+	__android_log_print(ANDROID_LOG_ERROR, "Boat", "setBoatNativeWindow : %p", mBoat.window);
+	mBoat.display = 0;
+}
 
 JNIEXPORT jint JNI_OnLoad(JavaVM* vm, void* reserved) {
 	

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:background="@drawable/hide">
+
+	<LinearLayout
+		android:id="@+id/download_ver_item"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingVertical="10dp"
+		android:paddingHorizontal="10dp"
+		android:background="?attr/selectableItemBackground"
+		android:orientation="horizontal"
+		android:gravity="center_vertical">
+
+		<ImageView
+			android:id="@+id/img"
+			android:src="@drawable/ic_btm_install"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="10dp"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/id"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				style="@style/TextStyleMain"/>
+
+			<TextView
+				android:id="@+id/type"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="13.5sp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fragment_home">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="org.koishi.launcher.h2o2pro.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/fragment_version"
+        android:name="org.koishi.launcher.h2o2pro.ui.version.VersionFragment"
+        android:label="@string/menu_ver"
+        tools:layout="@layout/fragment_custom" />
+
+    <fragment
+        android:id="@+id/fragment_manager"
+        android:name="org.koishi.launcher.h2o2pro.ui.manager.ManagerFragment"
+        android:label="@string/menu_manager"
+        tools:layout="@layout/fragment_manager" />
+
+    <fragment
+        android:id="@+id/fragment_install"
+        android:name="org.koishi.launcher.h2o2pro.ui.install.InstallFragment"
+        android:label="@string/menu_install"
+        tools:layout="@layout/fragment_custom" />
+
+    <fragment
+        android:id="@+id/fragment_custom"
+        android:name="org.koishi.launcher.h2o2pro.ui.custom.CustomFragment"
+        android:label="@string/menu_more"
+        tools:layout="@layout/fragment_custom" />
+</navigation>

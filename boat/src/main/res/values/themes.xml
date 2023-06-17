@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BoatTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+	</style>
+	<style name="FullScreenTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+		<item name="android:windowFullscreen">true</item>
+	</style>
+	<style name="AppBaseTheme" parent="Theme.MaterialComponents.Light">
+		<!-- Color Theme: https://material.io/develop/android/theming/color/ -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="colorOnPrimary">@color/white</item>
+		<item name="colorSecondary">@color/material_blue_light</item>
+		<item name="colorSecondaryVariant">@color/material_blue_light</item>
+		<item name="colorOnSecondary">@color/white</item>
+		<item name="actionBarStyle">@style/MyActionBar</item>
+
+		<item name="android:windowLightStatusBar">true</item>
+		<item name="android:windowLightNavigationBar">true</item>
+		<item name="android:navigationBarColor">@color/material_card_background</item>
+		<item name="android:windowBackground">@color/material_background</item>
+		<item name="cardForegroundColor">@color/material_blue</item>
+		<item name="android:statusBarColor">@color/material_card_background</item>
+	</style>
+
+	<style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+		<item name="android:background">@color/material_background</item>
+	</style>
+
+	<style name="AppBaseTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppBaseTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar" />
+
+	<style name="AppBaseTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+</resources>

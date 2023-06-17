@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BaseFramesSplashScreenTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" tools:ignore="NewApi">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="colorPrimaryVariant">@color/primaryDark</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/onAccent</item>
+
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+
+        <item name="colorBackgroundFloating">@color/background</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+
+        <item name="android:textColorPrimary">?colorOnSurface</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:navigationBarColor">?colorSurface</item>
+        <item name="android:navigationBarDividerColor">@color/transparent</item>
+        <item name="android:colorEdgeEffect">?colorSecondary</item>
+    </style>
+
+    <style name="BaseFramesSplashScreenTheme.Amoled" parent="BaseFramesSplashScreenTheme" tools:ignore="NewApi" />
+
+    <style name="BaseFramesTheme" parent="BaseFramesSplashScreenTheme" tools:ignore="NewApi">
+        <item name="android:windowBackground">@color/background</item>
+
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Frames.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Frames.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Frames.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Frames.Headline6</item>
+
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Frames.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Frames.Subtitle2</item>
+
+        <item name="textAppearanceButton">@style/TextAppearance.Frames.Button</item>
+
+        <item name="textAppearanceBody1">@style/TextAppearance.Frames.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Frames.Body2</item>
+
+        <item name="textAppearanceCaption">@style/TextAppearance.Frames.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Frames.Overline</item>
+
+        <item name="android:dialogTheme">@style/Frames.Dialogs</item>
+        <item name="android:alertDialogTheme">@style/Frames.Dialogs</item>
+        <item name="materialAlertDialogTheme">@style/Frames.Dialogs</item>
+
+        <item name="materialCardViewStyle">@style/Widget.Frames.MaterialCardView</item>
+        <item name="bottomSheetDialogTheme">@style/Frames.BottomSheetDialog</item>
+        <item name="navigationViewStyle">@style/Widget.Frames.NavigationView</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
+
+        <item name="shapeAppearanceSmallComponent">
+            @style/ShapeAppearance.Frames.SmallComponent
+        </item>
+        <item name="shapeAppearanceMediumComponent">
+            @style/ShapeAppearance.Frames.MediumComponent
+        </item>
+        <item name="shapeAppearanceLargeComponent">
+            @style/ShapeAppearance.Frames.LargeComponent
+        </item>
+    </style>
+
+    <style name="BaseFramesTheme.Amoled" parent="BaseFramesTheme" tools:ignore="NewApi" />
+
+    <style name="ViewerBottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemRippleColor">@color/viewer_item_ripple</item>
+    </style>
+
+    <!-- Bottom Sheet Dialogs -->
+    <style name="Frames.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog" tools:ignore="NewApi">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Frames.BottomSheet.Modal.Animation</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="bottomSheetStyle">@style/Frames.BottomSheet.Modal</item>
+        <item name="android:navigationBarColor">?colorSurface</item>
+        <item name="android:navigationBarDividerColor">@color/transparent</item>
+    </style>
+
+    <style name="Frames.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="shapeAppearance">?shapeAppearanceLargeComponent</item>
+    </style>
+
+    <style name="Frames.BottomSheet.Modal.Animation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/bottom_sheet_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_sheet_slide_out</item>
+    </style>
+
+    <!--Navigation Drawer-->
+    <style name="Widget.Frames.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemTextAppearance">?textAppearanceBody2</item>
+    </style>
+
+    <style name="Widget.Frames.TextButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/text_btn_bg_color</item>
+        <item name="rippleColor">@color/text_btn_ripple_color</item>
+        <item name="android:minWidth">56dp</item>
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+
+    <style name="Widget.Frames.ColoredButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colored_btn_bg_color</item>
+        <item name="rippleColor">@color/colored_btn_ripple_color</item>
+        <item name="android:textColor">?colorOnSecondary</item>
+    </style>
+
+    <style name="Widget.Frames.SurfaceButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/surface_btn_bg_color</item>
+        <item name="rippleColor">@color/surface_btn_ripple_color</item>
+        <item name="android:textColor">?colorOnSurface</item>
+    </style>
+
+</resources>

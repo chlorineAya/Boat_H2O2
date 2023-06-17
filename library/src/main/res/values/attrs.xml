@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LandscapeImageView">
+        <attr name="heightDivider" format="reference|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PortraitImageView">
+        <attr name="heightMultiplier" format="reference|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FramesBottomNavigationView">
+        <attr name="forceRightColor" format="reference|boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="StatefulRecyclerView">
+        <attr name="stateRootLayout" format="reference" />
+        <attr name="stateTextView" format="reference" />
+        <attr name="stateImageView" format="reference" />
+        <attr name="stateProgressBar" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_home"
+            android:icon="@drawable/ic_menu_home"
+            android:checked="true"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/fragment_install"
+            android:icon="@drawable/ic_launcher_install_file"
+            android:title="@string/menu_install" />
+
+        <item
+            android:id="@+id/fragment_custom"
+            android:icon="@drawable/ic_build"
+            android:title="@string/menu_more" />
+
+        <item
+            android:id="@+id/fragment_manager"
+            android:icon="@drawable/ic_directory"
+            android:title="@string/menu_manager" />
+
+    </group>
+
+    <item
+        android:id="@+id/fragment_version"
+        android:icon="@drawable/ic_list_ver"
+        android:title="@string/menu_ver" />
+
+    <item android:title="@string/menu_terminal">
+        <menu>
+            <item
+                android:id="@+id/activity_terminal"
+                android:icon="@drawable/ic_terminal"
+                android:title="@string/menu_terminal" />
+        </menu>
+    </item>
+</menu>

@@ -17,4 +17,14 @@
     <string name="control_right">▶</string>
     <string name="control_down">▼</string>
     <string name="control_keyboard">キーボード</string>
-   </resources>
+    
+    <string name="touch_mode_1">戦闘モード</string>
+	<string name="touch_mode_2">建築モデル</string>
+	
+	<string name="fc">クイッククリック</string>
+    <string name="app_restart">Restart</string>
+
+    <string name="crash_test">Crash test</string>
+    <string name="crash_hint">App is crashed! Do not worry, app will restart if you press the restart button. You can also view the information from this page.</string>
+    <string name="crash_title">Error</string>
+</resources>
